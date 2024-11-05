@@ -1,0 +1,947 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+body {
+    font-family: "Josefin Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.navbar {
+    border-bottom: 1px solid #333999;
+    padding: 0px;
+}
+
+.rexx-heading {
+    color: #333999;
+    font-size: 40px;
+    padding-top: 10px;
+    font-weight: bold;
+}
+
+#customItem, #customItem1, #customItem2, #customItem3, #customItem4, #customItem5 {
+    color: #000;
+    font-size: 16px;
+}
+
+.rexx-btn {
+    background-color: #333999;
+    border-width: 0px;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.rexx-btn:hover {
+    color: #fff;
+
+}
+
+/*.rexx-hero-section {
+    width: 100%;
+    background-image: linear-gradient(to right, #fff 50%, #333999 50%);
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.hero-content-container {
+    padding: 5px;
+}
+
+.hero-content-container-heading {
+    font-size: 45px;
+    font-weight: bold;
+    color: #383535;
+    margin-bottom: 20px;
+    width: 600px;
+}
+
+
+.hero-content-container-heading span {
+    color: #333999;
+    font-size: 55px; 
+}
+
+.hero-content-container-para {
+    font-size: 20px;
+    color: #383535; 
+    margin-bottom: 30px;
+}
+.rexx-hero-secion-img{
+    height: 100%;
+    width: 100%;
+}
+.download-image{
+    width: 160px;
+    height: 45px;
+    margin-left: 3px;
+}
+*/
+.rexx-hero-section-container .carousel-inner .carousel-item {
+    position: relative;
+    margin-top: 50px;
+}
+
+.rexx-hero-section-container .carousel-inner .carousel-item::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); 
+    z-index: 1; 
+}
+
+.rexx-hero-section-container .carousel-inner .container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white; 
+    z-index: 2; 
+}
+
+.rexx-hero-section-container .rexx-main-section-image {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    background-size: cover;
+}
+.rexx-section-main-heading{
+    font-size: 40px;
+    font-weight: bold;
+}
+.rexx-section-main-para{
+    font-size: 16px;
+
+}
+@media screen and (max-width: 480px){
+    .rexx-section-main-heading{
+        font-size: 20px;
+    }
+}
+
+
+
+
+/* discover path */
+.discover-card{
+    border: 1px solid #333999;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    padding: 7px;
+}
+.discover-card-heading{
+    font-size: 25px;
+    color: #333999;
+    font-weight: 600;
+}
+.discover-card-para{
+    font-size: 16px;
+    color: #000;
+    
+}
+.Discover-path-container{
+    width: 100%;
+    background-color: #f8f9fa; 
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    padding: 50px 0;
+}
+.discover-path-heading{
+    font-size: 30px;
+    font-weight: 600;
+}
+/* discover path */
+
+
+/* How it works*/
+.How-work-container{
+    width: 100%;
+    background-color: #f8f9fa; 
+    min-height: 70vh;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+}
+
+.how-work-main-head{
+    color: #333999;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.swiper-container {
+    width: 360px;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    
+}
+.swiper-container::before {
+    content: "";
+    background: url("https://theme.bitspecksolutions.com/html-template/appt/demo/images/testi-iphone.png") no-repeat center;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    height: 100%;
+    z-index: 999;
+    pointer-events: none;
+
+}
+.swiper-slide img {
+    width: 340px;
+    height: 600px;
+    display: block;
+    margin-left: 10px;
+    padding-top: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 40px;
+}
+.how-work-cards{
+    border: 1px solid #ededed;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    padding: 15px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+.work-heading{
+    font-size: 25px;
+    font-weight: 600;
+    color: #333999;
+    margin-bottom: 1px;
+}
+.work-para{
+    font-size: 16px;
+    margin-bottom: 3px;
+}
+/* how it works */
+
+
+/* features container */
+
+.features-main-container .carousel-control-prev-icon,
+    .features-main-container .carousel-control-next-icon {
+        background-color: rgba(51, 57, 153, 1); 
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        
+    }
+
+    
+    .features-main-container .carousel-indicators li {
+        background-color: #000; 
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+    }
+    
+    .features-main-container .carousel-indicators .active {
+        background-color: #333999; 
+    }
+.features-container{
+    padding: 80px;
+    margin-top: 40px;
+}
+.features-heading{
+    font-size: 25px;
+    color: #333999;
+    font-weight: bold;
+}
+.features-para{
+    font-size: 20px;
+    color: #000;
+}
+
+.features-card-container{
+    border: 1px solid #ededed;
+    padding: 10px;
+    border-radius: 5px;  
+    text-align: center;
+}
+.features-card-heading{
+    font-size: 25px;
+    color: #333999;
+    margin-bottom: 0px;
+    font-weight: 600;
+}
+.features-card-para{
+    font-size: 16px;
+    color: #2e2c2c;
+    margin-bottom: 0px;
+}
+/* features container */
+.features-main-container{
+    min-height: 70vh;
+    background: linear-gradient(rgba(201, 201, 215, 0.8), rgba(114, 115, 185, .8)), url("../Images/young-person-intership.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    z-index: 0;
+    overflow: hidden;
+    position: relative;
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+ul.tabs {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    height: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul.tabs li {
+    cursor: pointer;
+    padding-top: 6px;
+    height: 45px;
+    line-height: 31px;
+    border-top: 1px solid #333999;
+    border-left: 1px solid #333999;
+    border-bottom: 1px solid #333999;
+    border-right: 1px solid #333999;
+    background-color: #fff;
+    color: #333999;
+    overflow: hidden;
+    position: relative;
+    flex-grow: 1; /* Distribute the tabs equally */
+    text-align: center;
+    box-sizing: border-box;
+}
+
+ul.tabs li:not(:first-child) {
+    border-left: none; /* Remove the left border for all tabs except the first one */
+}
+
+
+
+
+
+ul.tabs li.active {
+    background-color: #333999;
+    color: #fff;
+    border-bottom: 1px solid #fff;
+    display: block;
+}
+
+.tab_container {
+    
+    border-top: none;
+    clear: both;
+    width: 100%;
+    background: #fff;
+    overflow: auto;
+}
+
+.tab_content {
+    padding-top: 60px;
+    padding-bottom: 100px;
+    display: none;
+    overflow: hidden;
+}
+
+.tab_drawer_heading {
+    display: none;
+}
+.item-grid:last-child{
+    margin-top: 50px;
+}
+
+@media screen and (max-width: 480px) {
+    ul.tabs {
+        display: none;
+    }
+    .tab_content {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .tab_drawer_heading {
+        background-color: #333999;
+        color: #fff;
+        border-top: 1px solid #fff;
+        margin: 0;
+        padding: 10px;
+        display: block;
+        cursor: pointer;
+        font-size: 16px;
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+    }
+
+    .d_active {
+        background-color: #fff;
+        color: #333999;
+    }
+    .item-grid:last-child{
+        margin-top: 0px;
+    }
+}
+
+.tab-how-card-container{
+    border: 1px solid #333999;
+    padding: 10px;
+    margin: 5px;
+    height: 150px;
+    border-radius: 5px;
+    
+}
+.tab-image{
+    width: 100%;
+}
+.tab-how-card-icon-container{
+    margin-bottom: 0px;
+    
+}
+.tab-how-card-icon{
+    font-size: 30px;
+    color: #333999;
+
+}
+.tag-line{
+    font-size: 18px;
+    color: #333999;
+    text-align: center;
+}
+
+  
+  
+/* testimonial*/
+.testimonials-container{
+    min-height: 10vh;
+    background: linear-gradient(to right ,rgba(133, 133, 239, 0.6) 50%, rgba(218, 218, 226, 0.6)), url("../Images/young-person-intership.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    z-index: 0;
+    overflow: hidden;
+    position: relative;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.caurosuel-sub-card{
+    text-align: center;
+    padding-left: 40px;
+    padding-right: 50px;
+}
+.testi-profile{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+.testi-sub-card{
+    background-color: rgba(51, 57, 153, 0.2);
+    padding: 10px;
+    border-radius: 5px;
+}
+.testimonials-container .carousel-control-prev-icon{
+    background-color: #333999;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    
+    
+}
+.testimonials-container .carousel-control-next-icon {
+    background-color: #333999;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    
+}
+.testi-main-head{
+    color: #333999;
+    font-size: 40px;
+    font-weight: 600;
+}
+.testi-main-para{
+    color: #fff;
+    font-size: 20px;
+}
+.testi-sub-card-head{
+    color: #333999;
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+.testi-sub-card-para{
+    color: #fff;
+    font-size: 16px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.testi-icon{
+    font-size: 45px;
+    color: #333999;
+    
+}
+.testi-sub-head{
+    font-size: 20px;
+    color: #333999;
+    font-weight: bold;
+}
+.testi-sub-para{
+    font-size: 16px;
+    color: #fff;
+}
+@media(max-width: 576px){
+    .testimonials-container{
+       
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .caurosuel-sub-card{
+        text-align: center;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .testi-main-head {
+        font-size: 20px;
+        padding-top: 30px;
+    }
+    .testi-sub-card-para{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .testi-sub-head{
+        font-size: 16px;
+    }
+}
+/* testimonial */
+
+
+
+
+
+
+
+
+
+
+/* Small devices (landscape phones, 576px and down) */
+@media (max-width: 576px) {
+    .rexx-hero-section{
+        background-image: linear-gradient(to bottom, #fff 50%, #333999 50%);
+    }
+    .rexx-heading {
+        font-size: 20px;
+    }
+    .hero-content-container{
+        padding-bottom: 100px;
+    }
+    .rexx-btn {
+        font-size: 14px;
+    }
+
+    .hero-content-container-heading {
+        font-size: 30px;
+        width: 100%;
+        margin-bottom: 1px;
+        
+    }
+    .download-image{
+        width: 100px;
+        height: 30px;
+        margin-left: 3px;
+    }
+
+    .hero-content-container-heading span {
+        font-size: 30px;
+    }
+
+    .hero-content-container-para {
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+
+    .discover-card-heading, .work-heading, .features-heading, .features-card-heading, .testi-main-head {
+        font-size: 20px;
+    }
+
+    .discover-card-para, .work-para, .features-para, .features-card-para, .testi-sub-card-para, .testi-main-para {
+        font-size: 14px;
+    }
+
+    .features-container, .How-work-container, .Discover-path-container, .testimonials-container {
+        padding: 30px 0;
+    }
+
+    .features-card-container {
+        height: auto;
+    }
+
+    .swiper-container {
+        width: 250px;
+        z-index:999;
+        height: 100%;
+        margin-top: 30px;
+        margin-bottom: 40px;
+        
+    }
+
+    .swiper-slide img {
+        width: 250px;
+        height: 400px;
+    }
+    .how-work-main-head{
+        color: #333999;
+        font-size: 30px;
+        font-weight: 600;
+        margin-top: 40px;
+        margin-left: 10px;
+    }
+    .testimonials-container{
+        
+        padding: 0px;
+    }
+    .testimonials-container .carousel-control-prev-icon{
+        background-color: #333999;
+        border-radius: 50%;
+        width: 30px;
+        height: 30px;
+        margin-right: 15px;
+        
+    }
+    .testimonials-container .carousel-control-next-icon {
+        background-color: #333999;
+        border-radius: 50%;
+        width: 30px;
+        height: 30px;
+        margin-left: 15px;
+    }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    .swiper-container {
+        width: 300px; 
+        z-index: 999;
+        height: 100%; 
+        margin-top: 60px;
+        margin-bottom: 90px;
+        margin-left: 150px;
+    }
+
+    .swiper-slide img {
+        width: 300px;
+        height: 450px;
+    }
+    .how-work-main-head{
+        color: #333999;
+        font-size: 30px;
+        font-weight: 600;
+        margin-top: 80px;
+        margin-left: 10px;
+    }
+}
+
+
+
+
+.rexx-features-container{
+    width: 100%;
+    background-color: #f8f9fa; 
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    padding-top: 120px;
+    padding-bottom: 100px;
+}
+.features-sub-card-container{
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+.features-sub-card-container:hover{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+    
+}
+.features-icon{
+    color: #333999;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.features-sub-card-heading{
+    font-size: 18px;
+    font-weight: 600;
+    color: #333999;
+    margin-top: 7px;
+}
+.features-sub-card-para{
+    font-size: 16px;
+}
+
+
+
+/* contact*/
+.contact-us-container {
+    width: 100%;
+    background-color: #f8f9fa;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 0;
+    color: #000;
+    font-size: 40px;
+}
+
+.contact-us-para {
+    color: #000;
+    font-size: 16px;
+}
+
+.contact-us-btn {
+    border: 1px solid #000;
+    border-radius: 20px;
+    color: #000;
+    font-size: 16px;
+    padding: 10px;
+}
+
+.contact-us-btn:hover {
+    color: #000;
+}
+
+.contact-container {
+    padding-top: 50px;
+}
+
+.contact {
+    margin-bottom: 40px;
+    border-radius: 20px;
+}
+
+.first-text {
+    font-size: 40px;
+    color: #333999;
+    font-weight: bold;
+}
+
+.logo-heading {
+    color: #333999;
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 2px;
+}
+
+.useful-link {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.footer-content {
+    color: #000;
+    font-size: 16px;
+}
+
+.social-media {
+    list-style-type: none;
+    display: flex;
+    justify-content: right;
+    margin: 5px 0;
+    padding-left: 0;
+}
+
+.second-text {
+    color: #333999;
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 2px;
+}
+
+.icon-container {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: #333999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5px;
+}
+
+.icon-style {
+    color: #fff;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+.submit-form {
+    border-radius: 20px;
+}
+
+.third-text {
+    color: #333999;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+form {
+    width: 100%;
+}
+
+.input-box {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px; /* Adjust spacing between input groups */
+}
+
+.input-box label {
+    font-size: 15px;
+    font-weight: 500;
+    color: #000;
+    margin-bottom: 5px; /* Space between label and input */
+}
+
+.input {
+    width: 100%;
+    height: 40px;
+    background: transparent;
+    border: 1px solid #333999;
+    border-radius: 5px;
+    outline: none;
+    color: #000;
+    font-size: 16px;
+    margin: 0; /* Remove default margin */
+}
+
+textarea.input {
+    border: 1px solid #333999;
+    outline: none;
+    resize: none;
+    min-height: 150px;
+    overflow: auto;
+    width: 100%;
+    background: transparent;
+    color: #000;
+    font-size: 16px;
+    padding: 5px; 
+    border-radius: 5px;
+}
+
+.submit-btn {
+    background-color: #333999;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.contact-img {
+    width: 100%;
+    height: 100%;
+}
+
+@media (max-width: 576px) {
+    .first-text {
+        font-size: 25px;
+        color: #333999;
+        font-weight: bold;
+    }
+    .logo-heading {
+        font-size: 20px;
+    }
+    .footer-content {
+        font-size: 14px;
+    }
+    .second-text {
+        font-size: 20px;
+    }
+    .icon-container {
+        height: 25px;
+        width: 25px;
+        margin-left: 3px;
+    }
+    .icon-style {
+        color: #fff;
+        font-size: 12px;
+    }
+    .third-text {
+        font-size: 25px;
+    }
+    
+}
+
+.subscribe-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 80px 0;
+}
+
+.subscribe-heading {
+    color: #333999;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.subscribe-para {
+    color: #000;
+    font-size: 16px;
+}
+
+.subscribe-input {
+    border: 1px solid #333999;
+    border-radius: 5px;
+    color: #000;
+    font-size: 16px;
+    padding: 10px;
+    
+}
+
+.subscribe-btn {
+    background-color: #333999;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    padding: 10px;
+}
+
+.footer-container-2 {
+    width: 100%;
+    background-color: #f8f9fa;
+}
+
+.footer-container-2 p {
+    font-size: 16px;
+    color: #000;
+    font-weight: 600;
+}
+
+hr {
+    margin: 0;
+    border-color: #ddd; /* Optional: light gray line */
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 15px;
+}

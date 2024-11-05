@@ -1,0 +1,878 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.0/font/bootstrap-icons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rexx</title>
+    <link rel="stylesheet" href="Assets/CSS/style.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top" role="navigation" aria-label="Main navigation">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <h1 class="rexx-heading">RexX</h1>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ml-auto">
+                    <a class="nav-link active" id="customItem" href="#">Home<span class="sr-only">(current)</span></a>
+                    <a class="nav-link" id="customItem1" href="#">About</a>
+                    <a class="nav-link" id="customItem2" href="#">Features</a>
+                    <a class="nav-link" id="customItem3" href="#">Overview</a>
+                    <a class="nav-link" id="customItem4" href="#">Blog</a>
+                    <a class="nav-link" id="customItem5" href="#">Contact</a>
+                    <a class="btn rexx-btn ml-3" id="downloadButton" href="#" download>Download</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!--<div class="rexx-hero-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-12">
+                    <div class="hero-content-container">
+                        <h1 class="hero-content-container-heading"><span>RexX</span>: Connecting Talent with Opportunities</h1>
+                        <p class="hero-content-container-para">A platform built to nurture talent, build connections, and unlock new opportunities - <span>all in one place</span></p>
+                        <div class="d-flex flex-row">
+                            <img src="Assets/Images/applestore.png" alt="App Store Download" class="download-image"/>
+                            <img src="Assets/Images/playstore.png" alt="Play Store Download" class="download-image"/>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-12">
+                    <img src="Assets/Images/business-team-working-tablet-computer.jpg" alt="Black iPhone 7"  class="rexx-hero-secion-img"/>
+                </div>
+            </div>
+        </div>
+    </div>-->
+    <div class="rexx-hero-section-container">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="d-block w-100 rexx-main-section-image" src="Assets/Images/woman-looking-orange-tablet.jpg" alt="First slide">
+                <div class="container">
+                    <h1 class="rexx-section-main-heading">Unlock Opportunities with Verified Connections</h1>
+                    <p class="rexx-section-main-para">Join a verified network where users can connect, share opportunities, and build meaningful careers.</p>
+                    <button class="rexx-btn">Join the Community</button>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100 rexx-main-section-image" src="Assets/Images/cook-with-salad-ringing-service-bell.jpg" alt="Second slide" >
+                <div class="container">
+                    <h1 class="rexx-section-main-heading">Seamless Access to Learning and Opportunites</h1>
+                    <p class="rexx-section-main-para">Learn from a curated library of courses and connect directly to job and intership opportunites</p>
+                    <button class="rexx-btn">Start Learning</button>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100 rexx-main-section-image" src="Assets/Images/business-team-working-tablet-computer.jpg" alt="Third slide" >
+                <div class="container">
+        
+                    <h1 class="rexx-section-main-heading">Connect, Collaborate, and Grow Together</h1>
+                    <p class="rexx-section-main-para">Book Sessions, share insights, and create valuable networks for career growth.</p>
+                    <button class="rexx-btn">Connect Now</button>
+                </div>
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+    </div>
+    <div class="rexx-features-container">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-12">
+                    <div class="features-sub-card-container">
+                        <i class="bi bi-tablet features-icon"></i>
+                        <h3 class="features-sub-card-heading">FULLY RESPONSIVE</h3>
+                        <P class="features-sub-card-para">lorem ipsum dolor sit amet consectur ipsum dolor sit amet consectur adipisicing elit Quisquam eveniet.</P>
+                    </div>
+                </div>
+                <div class="col-md-4 col-12">
+                    <div class="features-sub-card-container">
+                        <i class="bi bi-pencil features-icon"></i>
+                        <h3 class="features-sub-card-heading">CLEAN DESIGN</h3>
+                        <P class="features-sub-card-para">lorem ipsum dolor sit amet consectur ipsum dolor sit amet consectur adipisicing elit Quisquam eveniet.</P>
+                    </div>
+                </div>
+                <div class="col-md-4 col-12">
+                    <div class="features-sub-card-container">
+                        <i class="bi bi-gear features-icon"></i>
+                        <h3 class="features-sub-card-heading">EASY TO CUSTOMIZE</h3>
+                        <P class="features-sub-card-para">lorem ipsum dolor sit amet consectur ipsum dolor sit amet consectur adipisicing elit Quisquam eveniet.</P>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--<div class="features-main-container">
+    <div class="container">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="features-container">
+                        <div class="text-center mb-5">
+                            <h1 class="features-heading">RECURTIERS</h1>
+                            <p class="features-para">"Connect with top students, post opportunities, and simplify your recruitment process."</p>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-3">
+                                <div class="features-card-container">
+                                    <h1 class="features-card-heading">Company Verification</h1>
+                                    <p class="features-card-para">Recruiters can verify their company for credibility.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="features-card-container">
+                                    <h1 class="features-card-heading">Opportunities</h1>
+                                    <p class="features-card-para">Easily create listings for internships or jobs on the platform.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="features-card-container">
+                                    <h1 class="features-card-heading">Application Review</h1>
+                                    <p class="features-card-para">Recruiters can review applicants' profiles, resumes, and application details.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="features-card-container">
+                                    <h1 class="features-card-heading">Direct Communication</h1>
+                                    <p class="features-card-para">Connect with students, mentors, and college in-charges to collaborate on recruitment.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="features-container">
+                        <div class="text-center mb-5">
+                            <h1 class="features-heading">IN-CHARGE</h1>
+                            <p class="features-para">"Bridge the gap between students, recruiters, and mentors to boost placements."</p>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-3">
+                                <div class="features-card-container">
+                                    <h1 class="features-card-heading">Verification</h1>
+                                    <p class="features-card-para">In-charges can verify their institution for trusted connections</p>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="features-card-container">
+                                    <h1 class="features-card-heading">Manage Student Participation</h1>
+                                    <p class="features-card-para">Add students to internships and ensure their eligibility for positions.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="features-card-container">
+                                    <h1 class="features-card-heading">Facilitate Networking</h1>
+                                    <p class="features-card-para">Connect directly with recruiters and mentors to improve internship/job placements.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="features-card-container">
+                                    <h1 class="features-card-heading">Monitor Student Progress</h1>
+                                    <p class="features-card-para">Keep track of student involvement and internship/job application status.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="features-container">
+                        <div class="text-center mb-5">
+                            <h1 class="features-heading">MENTORS</h1>
+                            <p class="features-para">"Shape future talent through personalized mentorship and industry collaboration."</p>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-3">
+                                <div class="features-card-container">
+                                    <h1 class="features-card-heading">Verification</h1>
+                                    <p class="features-card-para">Mentors can verify their institution for trusted connections</p>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="features-card-container">
+                                    <h1 class="features-card-heading">Manage Student Participation</h1>
+                                    <p class="features-card-para">Add students to internships and ensure their eligibility for positions.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="features-card-container">
+                                    <h1 class="features-card-heading">Facilitate Networking</h1>
+                                    <p class="features-card-para">Connect directly with recruiters and mentors to improve internship/job placements.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="features-card-container">
+                                    <h1 class="features-card-heading">Monitor Student Progress</h1>
+                                    <p class="features-card-para">Keep track of student involvement and internship/job application status.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="features-container">
+                        <div class="text-center mb-5">
+                            <h1 class="features-heading">CANDIDATES</h1>
+                            <p class="features-para">"Learn, grow, and secure your dream job with a simple tap."</p>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-3">
+                                <div class="features-card-container">
+                                    <h1 class="features-card-heading">Personalized Learning</h1>
+                                    <p class="features-card-para">Access course materials tailored to improve employability.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="features-card-container">
+                                    <h1 class="features-card-heading">Job & Internship Applications</h1>
+                                    <p class="features-card-para">Apply for opportunities that match their skills and qualifications.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="features-card-container">
+                                    <h1 class="features-card-heading">Profile Building</h1>
+                                    <p class="features-card-para">Create a profile that showcases skills, experience, and certifications to recruiters.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="features-card-container">
+                                    <h1 class="features-card-heading">Mentor Support</h1>
+                                    <p class="features-card-para">Book slots with mentors to get personalized guidance and clear doubts.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+</div>-->
+
+<div class="container pt-5">
+    <div class="tab-header">
+        <ul class="tabs">
+            <li class="active" rel="tab1">RECRUITERS</li>
+            <li rel="tab2">IN-CHARGE</li>
+            <li rel="tab3">MENTORS</li>
+            <li rel="tab4">CANDIDATES</li>
+        </ul>
+    </div>
+    <div class="tab_container">
+        <!-- RECRUITERS Tab -->
+        <h3 class="d_active tab_drawer_heading" rel="tab1">RECRUITERS</h3>
+        <div id="tab1" class="tab_content">
+            <div class="tag-line">
+                <p>"Connect with top students, post opportunities, and simplify your recruitment process."</p>
+            </div>
+            <div class="row">
+                
+                <div class="col-md-6 col-12">
+                    <div class="tab-how-card-container">
+                        <div class="text-center">
+                            <p class="tab-how-card-icon-container"><i class="bi bi-check-circle tab-how-card-icon"></i></p>
+                            <h1 class="features-card-heading">Verification</h1>
+                            <p class="features-card-para">Mentors can verify their institution for trusted connections.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-12">
+                    <div class="tab-how-card-container">
+                        <div class="text-center">
+                            <p class="tab-how-card-icon-container"><i class="bi bi-key tab-how-card-icon"></i></p>
+                            <h1 class="features-card-heading">Opportunities</h1>
+                            <p class="features-card-para">Easily create listings for internships or jobs on the platform.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-12">
+                    <div class="tab-how-card-container">
+                        <div class="text-center">
+                            <p class="tab-how-card-icon-container"><i class="bi bi-search tab-how-card-icon"></i></p>
+                            <h1 class="features-card-heading">Application Review</h1>
+                            <p class="features-card-para">Review applicants' profiles, resumes, and application details.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-12">
+                    <div class="tab-how-card-container">
+                        <div class="text-center">
+                            <p class="tab-how-card-icon-container"><i class="bi bi-chat-dots tab-how-card-icon"></i></p>
+                            <h1 class="features-card-heading">Direct Communication</h1>
+                            <p class="features-card-para">Connect with students, mentors, and college in-charges for recruitment.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- IN-CHARGE Tab -->
+        <h3 class="tab_drawer_heading" rel="tab2">IN-CHARGE</h3>
+        <div id="tab2" class="tab_content">
+            <div class="tag-line">
+                <p>"Bridge the gap between students, recruiters, and mentors to boost placements."</p>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-12">
+                    <div class="tab-how-card-container">
+                        <div class="text-center">
+                            <p class="tab-how-card-icon-container"><i class="bi bi-check-circle tab-how-card-icon"></i></p>
+                            <h1 class="features-card-heading">Verification</h1>
+                            <p class="features-card-para">In-charges can verify their institution for trusted connections.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-12">
+                    <div class="tab-how-card-container">
+                        <div class="text-center">
+                            <p class="tab-how-card-icon-container"><i class="bi bi-person-workspace tab-how-card-icon"></i></p>
+                            <h1 class="features-card-heading">Manage Student Participation</h1>
+                            <p class="features-card-para">Add students to internships and ensure eligibility for positions.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-12">
+                    <div class="tab-how-card-container">
+                        <div class="text-center">
+                            <p class="tab-how-card-icon-container"><i class="bi bi-wifi tab-how-card-icon"></i></p>
+                            <h1 class="features-card-heading">Facilitate Networking</h1>
+                            <p class="features-card-para">Connect directly with recruiters and mentors for placements.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-12">
+                    <div class="tab-how-card-container">
+                        <div class="text-center">
+                            <p class="tab-how-card-icon-container"><i class="bi bi-graph-up tab-how-card-icon"></i></p>
+                            <h1 class="features-card-heading">Monitor Student Progress</h1>
+                            <p class="features-card-para">Track student involvement and application status.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- MENTORS Tab -->
+        <h3 class="tab_drawer_heading" rel="tab3">MENTORS</h3>
+        <div id="tab3" class="tab_content">
+            <div class="tag-line">
+                <p>"Become a verified mentor, showcase your experience, and guide students with confidence."</p>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-12">
+                    <div class="tab-how-card-container">
+                        <div class="text-center">
+                            <p class="tab-how-card-icon-container"><i class="bi bi-check-circle tab-how-card-icon"></i></p>
+                            <h1 class="features-card-heading">Verification</h1>
+                            <p class="features-card-para">Mentors can submit their work experience and credentials for verification to ensure trusted guidance.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-12">
+                    <div class="tab-how-card-container">
+                        <div class="text-center">
+                            <p class="tab-how-card-icon-container"><i class="bi bi-patch-check tab-how-card-icon"></i></p>
+                            <h1 class="features-card-heading">Verified Badge</h1>
+                            <p class="features-card-para">Verified mentors receive a badge to signify their credibility, enhancing trust for students and institutions.</p>  
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-12">
+                    <div class="tab-how-card-container">
+                        <div class="text-center">
+                            <p class="tab-how-card-icon-container"><i class="bi bi-journal-check tab-how-card-icon"></i></p>
+                            <h1 class="features-card-heading">Experience</h1>
+                            <p class="features-card-para">Mentors may emphasise their professional expertise, skills allowing students and college in-charges to book selections.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-12">
+                    <div class="tab-how-card-container">
+                        <div class="text-center">
+                            <p class="tab-how-card-icon-container"><i class="bi bi-check-circle tab-how-card-icon"></i></p>
+                            <h1 class="features-card-heading">Tailored Mentorship</h1>
+                            <p class="features-card-para">With verified expertise, mentors offer specialized guidance in career planning, skill development, and industry insights.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- CANDIDATES Tab -->
+        <h3 class="tab_drawer_heading" rel="tab4">CANDIDATES</h3>
+        <div id="tab4" class="tab_content">
+            <div class="tag-line">
+                <p>"Learn, grow, and secure your dream job with a simple tap."</p>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-12">
+                    <div class="tab-how-card-container">
+                        <div class="text-center">
+                            <p class="tab-how-card-icon-container"><i class="bi bi-journals tab-how-card-icon"></i></p>
+                            <h1 class="features-card-heading">Personalized Learning</h1>
+                            <p class="features-card-para">Access course materials tailored to improve employability.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-12">
+                    <div class="tab-how-card-container">
+                        <div class="text-center">
+                            <p class="tab-how-card-icon-container"><i class="bi bi-briefcase tab-how-card-icon"></i></p>
+                            <h1 class="features-card-heading">Job & Internship Applications</h1>
+                            <p class="features-card-para">Apply for opportunities that match skills and qualifications.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-12">
+                    <div class="tab-how-card-container">
+                        <div class="text-center">
+                            <p class="tab-how-card-icon-container"><i class="bi bi-person-check-fill tab-how-card-icon"></i></p>
+                            <h1 class="features-card-heading">Profile Building</h1>
+                            <p class="features-card-para">Create a profile to showcase skills, experience, and certifications.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-12">
+                    <div class="tab-how-card-container">
+                        <div class="text-center">
+                            <p class="tab-how-card-icon-container"><i class="bi bi-person-lines-fill tab-how-card-icon"></i></p>
+                            <h1 class="features-card-heading">Mentor Support</h1>
+                            <p class="features-card-para">Book slots with mentors for guidance and clear doubts.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+    <div class="How-work-container">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 col-md-12 col-12">
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper" id="swiperWrapper">
+                            
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-7 col-md-12 col-12">
+                    <h1 class="how-work-main-head">How It Works</h1>
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="how-work-cards">
+                                <h1 class="work-heading">Recurtiers</h1>
+                                <p class="work-para">Simplify your employment process by quickly identifying, screening, and connecting with the best student talent.</p>
+                                <button onclick="loadImages('recruiters')" class="btn rexx-btn">Recuriters</button>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="how-work-cards">
+                                <h1 class="work-heading">Incharges</h1>
+                                <p class="work-para">Manage job placements, track student achievements, and work with recruiters and mentors.</p>
+                                <button onclick="loadImages('incharges')" class="btn rexx-btn">Incharges</button>
+                            </div>    
+                        </div>
+                        <div class="col-12">
+                            <div class="how-work-cards">
+                                <h1 class="work-heading">Mentors</h1>
+                                <p class="work-para">Give learners career guidance, impact your knowledge, and create mutually beneficial connections.
+                                </p> 
+                                <button onclick="loadImages('candidates')" class="btn rexx-btn">Mentors</button>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="how-work-cards">
+                                <h1 class="work-heading">Candidates</h1>
+                                <p class="work-para">Create a professional profile, get in touch with mentors, and look for career opportunities.</p>
+                                <button onclick="loadImages('mentors')" class="btn rexx-btn">Candidates</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> 
+    </div>
+    
+    <div class="testimonials-container">
+        <div class="container">
+            <div class="text-center">
+                <h1 class="testi-main-head">What People Say</h1>
+                <p class="testi-main-para">Lorem ipsum is simply dummy text of the printing and typesetting industry.
+                    It has survied not only five centuries
+                </p>
+            </div>
+            <div>
+                <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active p-md-5 p-3">
+                        <div class="caurosuel-sub-card">
+                            <img src="Assets/Images/young-bearded-man-with-striped-shirt.jpg" class="testi-profile"/>   
+                            <p class="testi-sub-card-para">Lorem Ipsum is simply dummy text of the printing and typesetting industry. It has survived not only five centuries, but also the leap into electronic</p>
+                            <div class="d-flex flex-row justify-content-end">
+                                <i class="bi bi-quote testi-icon"></i>
+                                <div>
+                                    <h3 class="testi-sub-head">JONTHAN SMITH</h3>
+                                    <P class="testi-sub-para">Mentor</P>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="carousel-item p-md-5 p-3">
+                        <div class="caurosuel-sub-card">
+                            <img src="Assets/Images/young-bearded-man-with-striped-shirt.jpg" class="testi-profile"/>
+                            <p class="testi-sub-card-para">Lorem Ipsum is simply dummy text of the printing and typesetting industry. It has survived not only five centuries, but also the leap into electronic</p>
+                            <div class="d-flex flex-row justify-content-end">
+                                <i class="bi bi-quote testi-icon"></i>
+                                <div>
+                                    <h3 class="testi-sub-head">JONTHAN SMITH</h3>
+                                    <P class="testi-sub-para">Mentor</P>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="carousel-item p-md-5 p-3">
+                        <div class="caurosuel-sub-card">
+                            <img src="Assets/Images/young-bearded-man-with-striped-shirt.jpg" class="testi-profile"/>
+                            <p class="testi-sub-card-para">Lorem Ipsum is simply dummy text of the printing and typesetting industry. It has survived not only five centuries, but also the leap into electronic</p>
+                            <div class="d-flex flex-row justify-content-end">
+                                <i class="bi bi-quote testi-icon"></i>
+                                <div>
+                                    <h3 class="testi-sub-head">JONTHAN SMITH</h3>
+                                    <P class="testi-sub-para">Mentor</P>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Next</span>
+                    </a>
+                  </div>
+            </div>
+        </div>
+    </div>
+    
+    <footer class="contact-us-container">
+        <div class="container">
+            <div class="contact">
+                <div class="row">
+                    <div class="col-md-6 col-12 col-mt-5">
+                        <div class="submit-form">
+                            <h4 class="third-text">Contact Us</h4>
+                            <form action="/submit-form-url">
+                                <div class="input-box">
+                                    <label for="name">Name</label>
+                                    <input type="text" class="input" id="name" />
+                                    
+                                </div>
+                                <div class="input-box">
+                                    <label for="email">Email</label>
+                                    <input type="email" class="input" id="email" />
+                                    
+                                </div>
+                                <div class="input-box">
+                                    <label for="phone">Phone</label>
+                                    <input type="tel" class="input" id="phone" />
+                                    
+                                </div>
+                                <div class="input-box">
+                                    <label for="category">Category</label>
+                                    <input type="text" class="input" id="category"/>
+                                    
+                                </div>
+                                <div class="input-box">
+                                    <label for="message">Message</label>
+                                    <textarea class="input" id="message" cols="30" rows="5" required></textarea>
+                                    
+                                </div>
+                                <button type="submit" class="btn submit-btn">Submit</button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-12 d-flex align-items-center pt-4">
+                        <div class="subscribe-container-card text-center w-100">
+                            <h1 class="subscribe-heading">Subscribe</h1>
+                            <p class="subscribe-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et</p>
+                            <form class="flex w-full">
+                                <input type="email" placeholder="Enter your email" class="w-full flex-1 px-3 py-2 placeholder-gray-dark focus:outline-none subscribe-input">
+                                <button class="rexx-btn">Subscribe</button>
+                            </form>
+                            <div class="mt-5">
+                                <ul class="social-media">
+                                    <li class="icon-container"><a href="#"><i class="bi bi-instagram icon-style"></i></a></li>
+                                    <li class="icon-container"><a href="#"><i class="bi bi-twitter icon-style"></i></a></li>
+                                    <li class="icon-container"><a href="#"><i class="bi bi-facebook icon-style"></i></a></li>
+                                    <li class="icon-container"><a href="#"><i class="bi bi-whatsapp icon-style"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    
+    <!--<div class="contact-us-container">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h1 class="contact-us-header">Want to Learn More?</h1>
+                </div>
+                <div class="col-md-6">
+                    <p class="contact-us-para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur laboriosam voluptate, maiores iusto, distinctio officiis.</p>
+                </div>
+                <div class="col-md-2">
+                    <button type="button" class="btn contact-us-btn" data-toggle="modal" data-target="#exampleModal">CONTACT US</button>
+                    <button type="button" class="btn contact-us-btn" data-toggle="modal" data-target="#exampleModal">
+                        Contact Us
+                      </button>
+                      
+                    
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                              </button>
+                            </div>
+                            <div class="modal-body">
+                                <form actions="" method="post">
+                                    <div class="input-box">
+                                        <input type="text" class="input" required/>
+                                        <label for="">Name</label>
+                                    </div>
+                                    <div class="input-box">
+                                        <input type="email" class="input" required/>
+                                        <label for="">Email</label>
+                                    </div>
+                                    <div class="input-box">
+                                        <input type="tel" class="input" required/>
+                                        <label for="">Phone</label>
+                                    </div>
+                                    <div class="input-box">
+                                        <input type="option" class="input" required/>
+                                        <label for="">Category</label>
+                                    </div>
+                                    <div class="input-box">
+                                        <textarea name="" class="input" id="message" cols="30" rows="20" required></textarea>
+                                        <label for="">Message</label>
+                                    </div>
+                                    <button type="submit" class="btn submit-btn">Submit</button>
+                                </form>
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                              <button type="button" class="btn btn-primary">Save changes</button>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="subscribe-container">
+        <div class="container">
+            <div class="col-12 col-md-6 mx-auto">
+                <div class="subscribe-container-card text-center">
+                    <h1 class="subscribe-heading">Subscribe</h1>
+                    <p class="subscribe-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et</p>
+                    <form class="flex w-full gap-2 mt-3">
+                        <input type="email" placeholder="Enter your email address" class=" w-full flex-1 px-3 py-2  placeholder-gray-dark focus:outline-none subscribe-input">
+                        <button class="inline-block px-8 py-2 subscribe-btn">Subscribe</button>
+                        
+                    </form>
+                    <div class="mt-4">
+                        <ul class="social-media">
+                            <li class="icon-container"><a href="#"><i class="bi bi-instagram icon-style"></i></a></li>
+                            <li class="icon-container"><a href="#"><i class="bi bi-twitter icon-style"></i></a></li>
+                            <li class="icon-container"><a href="#"><i class="bi bi-facebook icon-style"></i></a></li>
+                            <li class="icon-container"><a href="#"><i class="bi bi-whatsapp icon-style"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>-->
+    <!--<div class="container">
+        <div class="row">
+            <div class="contact-box-2">
+                <div class="contact-links-2">
+                    <h2>Subscribe</h2>
+                    <div>
+                        <ul class="social-media">
+                            <li class="icon-container"><a href="#"><i class="bi bi-instagram icon-style"></i></a></li>
+                            <li class="icon-container"><a href="#"><i class="bi bi-twitter icon-style"></i></a></li>
+                            <li class="icon-container"><a href="#"><i class="bi bi-facebook icon-style"></i></a></li>
+                            <li class="icon-container"><a href="#"><i class="bi bi-whatsapp icon-style"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-form-wrapper">
+                <form>
+                    <div class="form-item">
+                        <label for="name">Name</label>
+                        <input id="name" type="text" name="sender" placeholder="Your Name" required />
+                    </div>
+                    <div class="form-item">
+                        <label for="email">Email</label>
+                        <input id="email" type="email" name="email" placeholder="Your Email" required />
+                    </div>
+                    <div class="form-item">
+                        <label for="category">Category</label>
+                        <select class="input" id="category" required>
+                            <option value="" disabled selected>Select Category</option>
+                            <option value="recruiter">Recruiter</option>
+                            <option value="mentor">Mentor</option>
+                            <option value="candidate">Candidate</option>
+                            <option value="in-charge">In-Charge</option>
+                        </select>
+                    </div>
+                    <div class="form-item">
+                        <label for="message">Message</label>
+                        <textarea id="message" placeholder="Your message..." required></textarea>
+                    </div>
+                    <button type="submit" class="rexx-btn" aria-label="Submit Form">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>-->
+    
+    <footer class="footer-container-2">
+        <hr />
+        <div class="container">
+            <div class="d-flex justify-content-between align-items-center pt-3 pb-2">
+                <p class="mb-0">All rights reserved © 2024</p>
+                <p class="mb-0 text-right">Designed by Allshore Technologies</p>
+            </div>
+        </div>
+    </footer>
+    
+    
+    
+    <!--<footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <div>
+                    <h1>RexX</h1>
+                    <p>Sed ut perspiciants unde om is nerror sit voluptatem accustium dolorem titum totam rem aperam quae.</p>
+                    <div class="social-media">
+                        <p><i class="bi bi-whatsapp"></i></p>
+                        <p><i class="bi bi-instagram"></i></p>
+                        <p><i class="bi bi-twitter"></i></p>
+                        <p><i class="bi bi-facebook"></i></p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+
+                </div>
+            </div>
+        </div>
+    </footer>-->
+    
+        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+        <script>
+            
+            const imageSets = {
+                recruiters: ["Assets/Images/1.png", "Assets/Images/1.png", "Assets/Images/1.png"],
+                incharges: ["Assets/Images/2.png", "Assets/Images/2.png", "Assets/Images/2.png"],
+                candidates: ["Assets/Images/3.png", "Assets/Images/3.png", "Assets/Images/3.png"],
+                mentors: ["Assets/Images/1.png", "Assets/Images/1.png", "Assets/Images/1.png"]
+            };
+    
+            let swiper; 
+            
+            function loadImages(category) {
+                const swiperWrapper = document.getElementById('swiperWrapper');
+                swiperWrapper.innerHTML = ''; 
+                
+                imageSets[category].forEach(imageSrc => {
+                    const slide = document.createElement('div');
+                    slide.className = 'swiper-slide';
+                    slide.innerHTML = `<img src="${imageSrc}" alt="${category} image">`; 
+                    swiperWrapper.appendChild(slide);
+                });
+    
+                
+                if (swiper) {
+                    swiper.destroy(); 
+                }
+    
+                swiper = new Swiper('.swiper-container', {
+                    loop: true,
+                    autoplay: {
+                        delay: 3000,
+                        disableOnInteraction: false,
+                    },
+                });
+            }
+    
+            
+            window.onload = () => loadImages('recruiters');
+        </script>
+        <script src="Assets/JavaScript/index.js"></script>
+</body>
+</html>
