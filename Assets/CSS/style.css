@@ -175,9 +175,15 @@ body {
 
 }
 
-.how-work-main-head{
+.how-work-main-para{
     color: #333999;
-    font-size: 40px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+.how-work-main-head{
+    
+    font-size: 35px;
     font-weight: 600;
 }
 
@@ -688,6 +694,18 @@ ul.tabs li.active {
 .features-sub-card-para{
     font-size: 16px;
 }
+.rexx-features-main-para{
+    color: #333999;
+    font-size: 35px;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.rexx-features-main-head{
+    font-size: 35px;
+    font-weight: 600;
+    padding-bottom: 30px;
+}
 
 
 
@@ -925,10 +943,11 @@ hr {
     font-size: 20px;
     font-weight: 600;
     padding-top: 20px;
+    margin-bottom: 0px;
 }
 .testimonials-head{
-    color: #000;
-    font-size: 40px;
+    
+    font-size: 35px;
     font-weight: 600;
 }
 /* testimonials */
@@ -945,13 +964,14 @@ hr {
     padding: 20px;
 }
 .why-choose-content-head{
-    color: #333999;
-    font-size: 40px;
+    
+    font-size: 35px;
     font-weight: 600;
 }
 .why-choose-content-para{
-    color: #000;
-    font-size: 16px;
+    color: #333999;
+    font-size: 20px;
+    font-weight: 600;
 
 }
 .why-choose-section-sub-card{
