@@ -31,12 +31,12 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav ml-auto">
-                    <a class="nav-link active" id="customItem" href="#">Home<span class="sr-only">(current)</span></a>
-                    <a class="nav-link" id="customItem1" href="#">About</a>
-                    <a class="nav-link" id="customItem2" href="#">Features</a>
-                    <a class="nav-link" id="customItem3" href="#">Overview</a>
-                    <a class="nav-link" id="customItem4" href="#">Blog</a>
-                    <a class="nav-link" id="customItem5" href="#">Contact</a>
+                    <a class="nav-link active" id="customItem" href="#homesection">Home<span class="sr-only">(current)</span></a>
+                    <a class="nav-link" id="customItem1" href="#whychooseusSection">Why Choose Us</a>
+                    <a class="nav-link" id="customItem2" href="#featuresection">Features</a>
+                    <a class="nav-link" id="customItem3" href="#howitworksection">How it works</a>
+                    <a class="nav-link" id="customItem4" href="#testimonialsection">Testimonials</a>
+                    <a class="nav-link" id="customItem5" href="#contactsection">Contact</a>
                     <a class="btn rexx-btn ml-3" id="downloadButton" href="#" download>Download</a>
                 </div>
             </div>
@@ -61,7 +61,7 @@
             </div>
         </div>
     </div>-->
-    <div class="rexx-hero-section-container">
+    <div class="rexx-hero-section-container" id="homesection">
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
               <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -108,17 +108,32 @@
 
 
 
-    <div class="why-choose-section-container">
+    <div class="why-choose-section-container" id="whychooseusSection">
         <div class="container">
             <div class="row">
                 <div class="col-md-5">
-                    <div class="why-choose-section-content">
-                        <p class="why-choose-content-para">Why Choose Us</p>
-                        <p class="why-choose-content-head">Empowering Your Journey with Trust and Opportunity</p>
+                    <div class="why-choose-img">
+                        <img src="Assets/Images/career-growth.svg" class="why-choose-section-image"/>
                     </div>
                 </div>
                 <div class="col-md-7">
-                    <div class="row">
+                    <div>
+                        <p class="why-choose-content-para">WHY CHOOSE US</p>
+                        <h1 class="why-choose-content-head">Empowering Your Journey with Trust and Opportunity</h1>
+                    </div>
+                    <div>
+                        <p class="why-choose-para">Discover a trusted platform where learning, mentorship, and career opportunities come together. With verified users, personalized guidance, and seamless tools, we empower you to build skills, connect with professionals, and unlock new career paths.</p>
+                    </div>
+                    <ul class="why-choose-list">
+                        <li><i class="bi bi-check why-choose-icon"></i><p>Verified Network for Trust</p></li>
+                        <li><i class="bi bi-check why-choose-icon"></i><p>Seamless Learning and Opportunities</p></li>
+                        <li><i class="bi bi-check why-choose-icon"></i><p>Personalized Mentorship Guidance</p></li>
+                        <li><i class="bi bi-check why-choose-icon"></i><p>Integrated Tools for All Users</p></li>
+                        <li><i class="bi bi-check why-choose-icon"></i><p>Build Meaningful Connections</p></li>
+                    </ul>
+                    <button class="btn rexx-btn">Get Started</button>
+
+                    <!--<div class="row">
                         <div class="col-md-6">
                             <div class="why-choose-section-sub-card">
                                 <p class="why-choose-sub-card-para">Verified Network for Trust and Security</p>
@@ -144,7 +159,7 @@
                                 <p class="why-choose-sub-card-para">Build Meaningful Connections</p>
                             </div>
                         </div>
-                    </div>
+                    </div>-->
                 </div>
             </div>
         </div>
@@ -152,10 +167,10 @@
 
 
 
-    <div class="rexx-features-container">
+    <div class="rexx-features-container" id="featuresection">
         <div class="container">
-            <p class="rexx-features-main-para">Features</p>
-            <!--<h1 class="rexx-features-main-head">Smart Features for Smarter Career Growth</h1>-->
+            <p class="rexx-features-main-para">FEATURES</p>
+            <h1 class="rexx-features-main-head">Designed for progress, Built for You</h1>
             <div class="row">
                 <div class="col-md-4 col-12">
                     <div class="features-sub-card-container">
@@ -341,207 +356,208 @@
         </div>
     </div>
 </div>-->
-
-<div class="container pt-5">
-    <div class="tab-header">
-        <ul class="tabs">
-            <li class="active" rel="tab1">RECRUITERS</li>
-            <li rel="tab2">IN-CHARGE</li>
-            <li rel="tab3">MENTORS</li>
-            <li rel="tab4">CANDIDATES</li>
-        </ul>
-    </div>
-    <div class="tab_container">
-        <!-- RECRUITERS Tab -->
-        <h3 class="d_active tab_drawer_heading" rel="tab1">RECRUITERS</h3>
-        <div id="tab1" class="tab_content">
-            <div class="tag-line">
-                <p>"Connect with top students, post opportunities, and simplify your recruitment process."</p>
-            </div>
-            <div class="row">
+<div class="tab-container-how-work" >
+    <div class="container pt-5">
+        <div class="tab-header">
+            <ul class="tabs">
+                <li class="active" rel="tab1">RECRUITERS</li>
+                <li rel="tab2">IN-CHARGE</li>
+                <li rel="tab3">MENTORS</li>
+                <li rel="tab4">CANDIDATES</li>
+            </ul>
+        </div>
+        <div class="tab_container">
+            <!-- RECRUITERS Tab -->
+            <h3 class="d_active tab_drawer_heading" rel="tab1">RECRUITERS</h3>
+            <div id="tab1" class="tab_content">
+                <div class="tag-line">
+                    <p>"Connect with top students, post opportunities, and simplify your recruitment process."</p>
+                </div>
+                <div class="row">
+                    
+                    <div class="col-md-3 col-12">
+                        <div class="tab-how-card-container">
+                            <div class="text-center">
+                                <!--<p class="tab-how-card-icon-container"><i class="bi bi-check-circle tab-how-card-icon"></i></p>-->
+                                <img src="Assets/Images/verification.svg" class="tab-how-card-image"/>
+                                <h1 class="features-card-heading">Verification</h1>
+                                <p class="features-card-para">Mentors can verify their institution for trusted connections.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-12">
+                        <div class="tab-how-card-container">
+                            <div class="text-center">
+                                <!--<p class="tab-how-card-icon-container"><i class="bi bi-key tab-how-card-icon"></i></p>-->
+                                <img src="Assets/Images/opportunities.svg" class="tab-how-card-image"/>
+                                <h1 class="features-card-heading">Opportunities</h1>
+                                <p class="features-card-para">Easily create listings for internships or jobs on the platform.</p>
+                            </div>
+                        </div>
+                    </div>
                 
-                <div class="col-md-6 col-12">
-                    <div class="tab-how-card-container">
-                        <div class="text-center">
-                            <!--<p class="tab-how-card-icon-container"><i class="bi bi-check-circle tab-how-card-icon"></i></p>-->
-                            <img src="Assets/Images/usability.png" class="tab-how-card-image"/>
-                            <h1 class="features-card-heading">Verification</h1>
-                            <p class="features-card-para">Mentors can verify their institution for trusted connections.</p>
+                
+                    <div class="col-md-3 col-12">
+                        <div class="tab-how-card-container">
+                            <div class="text-center">
+                                <!--<p class="tab-how-card-icon-container"><i class="bi bi-search tab-how-card-icon"></i></p>-->
+                                <img src="Assets/Images/review.svg" class="tab-how-card-image"/>
+                                <h1 class="features-card-heading">Application Review</h1>
+                                <p class="features-card-para">Review applicants' profiles, resumes, and application details.</p>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-6 col-12">
-                    <div class="tab-how-card-container">
-                        <div class="text-center">
-                            <!--<p class="tab-how-card-icon-container"><i class="bi bi-key tab-how-card-icon"></i></p>-->
-                            <img src="Assets/Images/job.png" class="tab-how-card-image"/>
-                            <h1 class="features-card-heading">Opportunities</h1>
-                            <p class="features-card-para">Easily create listings for internships or jobs on the platform.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-6 col-12">
-                    <div class="tab-how-card-container">
-                        <div class="text-center">
-                            <!--<p class="tab-how-card-icon-container"><i class="bi bi-search tab-how-card-icon"></i></p>-->
-                            <img src="Assets/Images/application.png" class="tab-how-card-image"/>
-                            <h1 class="features-card-heading">Application Review</h1>
-                            <p class="features-card-para">Review applicants' profiles, resumes, and application details.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-12">
-                    <div class="tab-how-card-container">
-                        <div class="text-center">
-                            <p class="tab-how-card-icon-container"><i class="bi bi-chat-dots tab-how-card-icon"></i></p>
-                            <h1 class="features-card-heading">Direct Communication</h1>
-                            <p class="features-card-para">Connect with students, mentors, and college in-charges for recruitment.</p>
+                    <div class="col-md-3 col-12">
+                        <div class="tab-how-card-container">
+                            <div class="text-center">
+                                <img src="Assets/Images/communication.svg" class="tab-how-card-image"/>
+                                <h1 class="features-card-heading">Direct Communication</h1>
+                                <p class="features-card-para">Connect with students, mentors, and college in-charges for recruitment.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
 
-        <!-- IN-CHARGE Tab -->
-        <h3 class="tab_drawer_heading" rel="tab2">IN-CHARGE</h3>
-        <div id="tab2" class="tab_content">
-            <div class="tag-line">
-                <p>"Bridge the gap between students, recruiters, and mentors to boost placements."</p>
+            <!-- IN-CHARGE Tab -->
+            <h3 class="tab_drawer_heading" rel="tab2">IN-CHARGE</h3>
+            <div id="tab2" class="tab_content">
+                <div class="tag-line">
+                    <p>"Bridge the gap between students, recruiters, and mentors to boost placements."</p>
+                </div>
+                <div class="row">
+                    <div class="col-md-3 col-12">
+                        <div class="tab-how-card-container">
+                            <div class="text-center">
+                                <img src="Assets/Images/verification.svg" class="tab-how-card-image"/>
+                                <h1 class="features-card-heading">Verification</h1>
+                                <p class="features-card-para">In-charges can verify their institution for trusted connections.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-12">
+                        <div class="tab-how-card-container">
+                            <div class="text-center">
+                                <img src="Assets/Images/study.svg" class="tab-how-card-image"/>
+                                <h1 class="features-card-heading">Manage Student Participation</h1>
+                                <p class="features-card-para">Add students to internships and ensure eligibility for positions.</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                
+                    <div class="col-md-3 col-12">
+                        <div class="tab-how-card-container">
+                            <div class="text-center">
+                                <img src="Assets/Images/worldwide.svg" class="tab-how-card-image"/>
+                                <h1 class="features-card-heading">Facilitate Networking</h1>
+                                <p class="features-card-para">Connect directly with recruiters and mentors for placements.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-12">
+                        <div class="tab-how-card-container">
+                            <div class="text-center">
+                                <img src="Assets/Images/progress-tracking.svg" class="tab-how-card-image"/>
+                                <h1 class="features-card-heading">Monitor Student Progress</h1>
+                                <p class="features-card-para">Track student involvement and application status.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="row">
-                <div class="col-md-6 col-12">
-                    <div class="tab-how-card-container">
-                        <div class="text-center">
-                            <p class="tab-how-card-icon-container"><i class="bi bi-check-circle tab-how-card-icon"></i></p>
-                            <h1 class="features-card-heading">Verification</h1>
-                            <p class="features-card-para">In-charges can verify their institution for trusted connections.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-12">
-                    <div class="tab-how-card-container">
-                        <div class="text-center">
-                            <p class="tab-how-card-icon-container"><i class="bi bi-person-workspace tab-how-card-icon"></i></p>
-                            <h1 class="features-card-heading">Manage Student Participation</h1>
-                            <p class="features-card-para">Add students to internships and ensure eligibility for positions.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-6 col-12">
-                    <div class="tab-how-card-container">
-                        <div class="text-center">
-                            <p class="tab-how-card-icon-container"><i class="bi bi-wifi tab-how-card-icon"></i></p>
-                            <h1 class="features-card-heading">Facilitate Networking</h1>
-                            <p class="features-card-para">Connect directly with recruiters and mentors for placements.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-12">
-                    <div class="tab-how-card-container">
-                        <div class="text-center">
-                            <p class="tab-how-card-icon-container"><i class="bi bi-graph-up tab-how-card-icon"></i></p>
-                            <h1 class="features-card-heading">Monitor Student Progress</h1>
-                            <p class="features-card-para">Track student involvement and application status.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
 
-        <!-- MENTORS Tab -->
-        <h3 class="tab_drawer_heading" rel="tab3">MENTORS</h3>
-        <div id="tab3" class="tab_content">
-            <div class="tag-line">
-                <p>"Become a verified mentor, showcase your experience, and guide students with confidence."</p>
+            <!-- MENTORS Tab -->
+            <h3 class="tab_drawer_heading" rel="tab3">MENTORS</h3>
+            <div id="tab3" class="tab_content">
+                <div class="tag-line">
+                    <p>"Become a verified mentor, showcase your experience, and guide students with confidence."</p>
+                </div>
+                <div class="row">
+                    <div class="col-md-3 col-12">
+                        <div class="tab-how-card-container">
+                            <div class="text-center">
+                                <img src="Assets/Images/verification.svg" class="tab-how-card-image"/>
+                                <h1 class="features-card-heading">Verification</h1>
+                                <p class="features-card-para">Mentors submit credentials for verification, providing trusted, reliable guidance.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-12">
+                        <div class="tab-how-card-container">
+                            <div class="text-center">
+                                <img src="Assets/Images/verified-security.svg" class="tab-how-card-image"/>
+                                <h1 class="features-card-heading">Verified Badge</h1>
+                                <p class="features-card-para">erified mentors earn a badge, enhancing trust with students and institutions.</p>  
+                            </div>
+                        </div>
+                    </div>
+                
+                
+                    <div class="col-md-3 col-12">
+                        <div class="tab-how-card-container">
+                            <div class="text-center">
+                                <img src="Assets/Images/experience.svg" class="tab-how-card-image"/>
+                                <h1 class="features-card-heading">Experience</h1>
+                                <p class="features-card-para">Mentors showcase expertise, allowing students and in-charges to book sessions confidently.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-12">
+                        <div class="tab-how-card-container">
+                            <div class="text-center">
+                                <img src="Assets/Images/leadership.svg" class="tab-how-card-image"/>
+                                <h1 class="features-card-heading">Tailored Mentorship</h1>
+                                <p class="features-card-para">Mentors provide tailored guidance in career planning, skill growth, and industry insights.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="row">
-                <div class="col-md-6 col-12">
-                    <div class="tab-how-card-container">
-                        <div class="text-center">
-                            <p class="tab-how-card-icon-container"><i class="bi bi-check-circle tab-how-card-icon"></i></p>
-                            <h1 class="features-card-heading">Verification</h1>
-                            <p class="features-card-para">Mentors can submit their work experience and credentials for verification to ensure trusted guidance.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-12">
-                    <div class="tab-how-card-container">
-                        <div class="text-center">
-                            <p class="tab-how-card-icon-container"><i class="bi bi-patch-check tab-how-card-icon"></i></p>
-                            <h1 class="features-card-heading">Verified Badge</h1>
-                            <p class="features-card-para">Verified mentors receive a badge to signify their credibility, enhancing trust for students and institutions.</p>  
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-6 col-12">
-                    <div class="tab-how-card-container">
-                        <div class="text-center">
-                            <p class="tab-how-card-icon-container"><i class="bi bi-journal-check tab-how-card-icon"></i></p>
-                            <h1 class="features-card-heading">Experience</h1>
-                            <p class="features-card-para">Mentors may emphasise their professional expertise, skills allowing students and college in-charges to book selections.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-12">
-                    <div class="tab-how-card-container">
-                        <div class="text-center">
-                            <p class="tab-how-card-icon-container"><i class="bi bi-check-circle tab-how-card-icon"></i></p>
-                            <h1 class="features-card-heading">Tailored Mentorship</h1>
-                            <p class="features-card-para">With verified expertise, mentors offer specialized guidance in career planning, skill development, and industry insights.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
 
-        <!-- CANDIDATES Tab -->
-        <h3 class="tab_drawer_heading" rel="tab4">CANDIDATES</h3>
-        <div id="tab4" class="tab_content">
-            <div class="tag-line">
-                <p>"Learn, grow, and secure your dream job with a simple tap."</p>
-            </div>
-            <div class="row">
-                <div class="col-md-6 col-12">
-                    <div class="tab-how-card-container">
-                        <div class="text-center">
-                            <p class="tab-how-card-icon-container"><i class="bi bi-journals tab-how-card-icon"></i></p>
-                            <h1 class="features-card-heading">Personalized Learning</h1>
-                            <p class="features-card-para">Access course materials tailored to improve employability.</p>
+            <!-- CANDIDATES Tab -->
+            <h3 class="tab_drawer_heading" rel="tab4">CANDIDATES</h3>
+            <div id="tab4" class="tab_content">
+                <div class="tag-line">
+                    <p>"Learn, grow, and secure your dream job with a simple tap."</p>
+                </div>
+                <div class="row">
+                    <div class="col-md-3 col-12">
+                        <div class="tab-how-card-container">
+                            <div class="text-center">
+                                <img src="Assets/Images/personalized-learning.svg" class="tab-how-card-image"/>
+                                <h1 class="features-card-heading">Personalized Learning</h1>
+                                <p class="features-card-para">Access course materials tailored to improve employability.</p>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-6 col-12">
-                    <div class="tab-how-card-container">
-                        <div class="text-center">
-                            <p class="tab-how-card-icon-container"><i class="bi bi-briefcase tab-how-card-icon"></i></p>
-                            <h1 class="features-card-heading">Job & Internship Applications</h1>
-                            <p class="features-card-para">Apply for opportunities that match skills and qualifications.</p>
+                    <div class="col-md-3 col-12">
+                        <div class="tab-how-card-container">
+                            <div class="text-center">
+                                <img src="Assets/Images/job.svg" class="tab-how-card-image"/>
+                                <h1 class="features-card-heading">Job & Internship</h1>
+                                <p class="features-card-para">Apply for opportunities that match skills and qualifications.</p>
+                            </div>
                         </div>
                     </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-6 col-12">
-                    <div class="tab-how-card-container">
-                        <div class="text-center">
-                            <p class="tab-how-card-icon-container"><i class="bi bi-person-check-fill tab-how-card-icon"></i></p>
-                            <h1 class="features-card-heading">Profile Building</h1>
-                            <p class="features-card-para">Create a profile to showcase skills, experience, and certifications.</p>
+                
+                
+                    <div class="col-md-3 col-12">
+                        <div class="tab-how-card-container">
+                            <div class="text-center">
+                                <img src="Assets/Images/corporate-profile.svg" class="tab-how-card-image"/>
+                                <h1 class="features-card-heading">Profile Building</h1>
+                                <p class="features-card-para">Create a profile to showcase skills, experience, and certifications.</p>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-6 col-12">
-                    <div class="tab-how-card-container">
-                        <div class="text-center">
-                            <p class="tab-how-card-icon-container"><i class="bi bi-person-lines-fill tab-how-card-icon"></i></p>
-                            <h1 class="features-card-heading">Mentor Support</h1>
-                            <p class="features-card-para">Book slots with mentors for guidance and clear doubts.</p>
+                    <div class="col-md-3 col-12">
+                        <div class="tab-how-card-container">
+                            <div class="text-center">
+                                <img src="Assets/Images/mentor-support.svg" class="tab-how-card-image"/>
+                                <h1 class="features-card-heading">Mentor Support</h1>
+                                <p class="features-card-para">Book slots with mentors for guidance and clear doubts.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -551,10 +567,10 @@
 </div>
 
 
-    <div class="How-work-container">
+    <div class="How-work-container" id="howitworksection">
         <div class="container">
             <div class="row">
-                <div class="col-lg-5 col-md-12 col-12">
+                <div class="col-lg-4 col-md-12 col-12">
                     <div class="swiper-container">
                         <div class="swiper-wrapper" id="swiperWrapper">
                             
@@ -562,8 +578,8 @@
                     </div>
                 </div>
                 
-                <div class="col-lg-7 col-md-12 col-12">
-                    <p class="how-work-main-para">How It Works</p>
+                <div class="col-lg-8 col-md-12 col-12 pl-5">
+                    <p class="how-work-main-para">HOW IT WORKS</p>
                     <h1 class="how-work-main-head">Simple Steps to Unlock Your Potential</h1>
                     <div class="row">
                         <div class="col-12">
@@ -659,12 +675,12 @@
         </div>
     </div>-->
     
-    <div class="testimonials">
+    <div class="testimonials" id="testimonialsection">
         <div class="container">
             <div class="row">
                 <div class="col-md-4 col-12">
                     <div>
-                        <p class="testimonials-para">Testimonials</p>
+                        <p class="testimonials-para">TESTIMONIALS</p>
                         <h2 class="testimonials-head">What Clients Say About Us</h2>
                     </div>
                 </div>
@@ -842,16 +858,17 @@
         </div>
     </div>-->
     
-    <div class="contact-us-container-2">
+    <div class="contact-us-container-2" id="contactsection">
         <div class="container">
             <div>
-                <h1 class="third-text">Contact Us</h1>
+                <p class="contact-us-main-para">CONTACT US</p>
+                <h1 class="contact-us-main-head">Book a consultation with us to explore how we can assist you!</h1>
             </div>
             <div class="row">
                 <div class="col-md-6">
                     <div class="contact-us-card-container">
                         <div class="submit-form">
-                            <p class="contact-us-card-para">Book a consultation with us to explore how we can assist you!</p>
+                            <p class="contact-us-card-para">Let's Connect</p>
                             <form action="/submit-form-url">
                                 <div class="sub-contact">
                                     <div class="input-box">

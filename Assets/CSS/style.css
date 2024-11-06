@@ -165,24 +165,24 @@ body {
 /* How it works*/
 .How-work-container{
     width: 100%;
-    background-color: #f8f9fa; 
+    background-color: #fff; 
     min-height: 70vh;
     display: flex;
     align-items: center; 
     justify-content: center;
-    padding-top: 60px;
+    padding-top: 120px;
     padding-bottom: 60px;
 
 }
 
 .how-work-main-para{
     color: #333999;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 600;
-    margin-bottom: 0px;
+    
 }
 .how-work-main-head{
-    
+    padding-bottom: 10px;
     font-size: 35px;
     font-weight: 600;
 }
@@ -209,7 +209,7 @@ body {
 
 }
 .swiper-slide img {
-    width: 340px;
+    width: 330px;
     height: 600px;
     display: block;
     margin-left: 10px;
@@ -282,15 +282,15 @@ body {
     text-align: center;
 }
 .features-card-heading{
-    font-size: 25px;
+    font-size: 20px;
     color: #333999;
     margin-bottom: 0px;
     font-weight: 600;
 }
 .features-card-para{
     font-size: 16px;
-    color: #2e2c2c;
     margin-bottom: 0px;
+    line-height: 1.5;
 }
 /* features container */
 .features-main-container{
@@ -304,6 +304,14 @@ body {
     position: relative;
     padding-top: 60px;
     padding-bottom: 30px;
+}
+.tab-container-how-work{
+    width: 100%;
+    background-color: #f8f9fa; 
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    padding: 50px 0;
 }
 ul.tabs {
     margin: 0;
@@ -349,11 +357,9 @@ ul.tabs li.active {
 }
 
 .tab_container {
-    
     border-top: none;
-    clear: both;
     width: 100%;
-    background: #fff;
+    background: #f8f8f8;
     overflow: auto;
 }
 
@@ -408,10 +414,12 @@ ul.tabs li.active {
 
 .tab-how-card-container{
     border: 1px solid #333999;
-    padding: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     margin: 5px;
-    height: 150px;
     border-radius: 5px;
+    height: 230px;
+    
     
 }
 .tab-image{
@@ -430,9 +438,12 @@ ul.tabs li.active {
     font-size: 18px;
     color: #333999;
     text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 .tab-how-card-image{
-    height: 50px;
+    width: 70px;
+    padding-bottom: 15px;
 }
 
   
@@ -696,15 +707,16 @@ ul.tabs li.active {
 }
 .rexx-features-main-para{
     color: #333999;
-    font-size: 35px;
+    font-size: 16px;
     font-weight: 600;
     text-align: center;
-    padding-bottom: 30px;
+    
 }
 .rexx-features-main-head{
     font-size: 35px;
     font-weight: 600;
     padding-bottom: 30px;
+    text-align: center;
 }
 
 
@@ -713,20 +725,21 @@ ul.tabs li.active {
 
 
 .contact-us-container-2 {
-    padding: 20px; 
+    padding-top: 120px;
+    padding-bottom: 50px;
     background-color: #fff; 
 }
 .contact-us-card-para{
     color: #333999;
-    font-size: 20px;
+    font-size: 30px;
     font-weight: 600;
-    padding-bottom: 20px;
+    
 }
 
 .contact-us-card-container {
     background: #fff;
     border-radius: 20px; 
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); 
+    
     padding: 30px; 
     max-width: 800px; 
     width: 100%; 
@@ -760,7 +773,7 @@ ul.tabs li.active {
 .input-box label {
     font-size: 15px;
     font-weight: 500;
-    color: #000;
+    color: #333999;
     margin-bottom: 5px; 
 }
 
@@ -898,13 +911,26 @@ hr {
     padding: 10px;
     border-radius: 10px;
 }
+.contact-us-main-para{
+    color: #333999;
+    font-size: 16px;
+    font-weight: 600;
+    padding-top: 20px;
+    text-align: center;
+}
+.contact-us-main-head{
+    font-size: 35px;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 40px;
+}
 
 
 
 .testimonials{
     background-image: url("../Images/unnamed.png");
     /*background-color: pink;*/
-    padding-top: 70px;
+    padding-top: 120px;
     padding-bottom: 60px;
 }
 .testimonials-sub-card{
@@ -913,15 +939,16 @@ hr {
 }
 .testi-profile-2{
     position:relative;
-    bottom: -50px;
-    height: 100px;
-    width: 100px;
+    bottom: -70px;
+    height: 120px;
+    width: 120px;
     border-radius: 50%;
 }
 .testi-sub-card-para-2{
     font-size: 16px;
     margin-bottom: 0px;
     padding-top: 10px;
+    line-height: 1.7;
 }
 .testi-sub-head-2{
     padding-top: 50px;
@@ -940,10 +967,10 @@ hr {
 }
 .testimonials-para{
     color: #333999;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 600;
     padding-top: 20px;
-    margin-bottom: 0px;
+    
 }
 .testimonials-head{
     
@@ -955,22 +982,22 @@ hr {
 
 
 .why-choose-section-container{
-    background-color:#f8f9fa;
+    background-color:#fff;
     width: 100%;
-    padding-top: 60px;
+    padding-top: 120px;
     padding-bottom: 60px;
 }
 .why-choose-section-content{
     padding: 20px;
 }
 .why-choose-content-head{
-    
+    line-height: 1.5;
     font-size: 35px;
     font-weight: 600;
 }
 .why-choose-content-para{
     color: #333999;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 600;
 
 }
@@ -983,5 +1010,39 @@ hr {
 .why-choose-sub-card-para{
     font-size: 16px;
 }
+
+.why-choose-para{
+    font-size: 16px;
+    line-height: 1.8;
+}
+.why-choose-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.why-choose-list li {
+    display: flex;
+    align-items: center;
+    width: 50%; 
+    margin-bottom: 10px;
+}
+
+.why-choose-icon {
+    font-size: 20px;
+    margin-right: 8px;
+    color: #333999;
+}
+
+.why-choose-list p {
+    margin: 0;
+}
+.why-choose-section-image{
+    padding-top: 30px;
+    
+}
+
 
 
