@@ -7,6 +7,8 @@ body {
     overflow-x: hidden;
 }
 
+/* Rexx navvbar */
+
 .navbar {
     border-bottom: 1px solid #333999;
     padding: 0px;
@@ -37,50 +39,11 @@ body {
     color: #fff;
 
 }
-
-/*.rexx-hero-section {
-    width: 100%;
-    background-image: linear-gradient(to right, #fff 50%, #333999 50%);
-    display: flex;
-    align-items: center; 
-    justify-content: center;
-    padding-top: 60px;
-    padding-bottom: 60px;
-}
-
-.hero-content-container {
-    padding: 5px;
-}
-
-.hero-content-container-heading {
-    font-size: 45px;
-    font-weight: bold;
-    color: #383535;
-    margin-bottom: 20px;
-    width: 600px;
-}
+/*Rexx Navbar*/
 
 
-.hero-content-container-heading span {
-    color: #333999;
-    font-size: 55px; 
-}
 
-.hero-content-container-para {
-    font-size: 20px;
-    color: #383535; 
-    margin-bottom: 30px;
-}
-.rexx-hero-secion-img{
-    height: 100%;
-    width: 100%;
-}
-.download-image{
-    width: 160px;
-    height: 45px;
-    margin-left: 3px;
-}
-*/
+/*Rexx home section*/
 .rexx-hero-section-container .carousel-inner .carousel-item {
     position: relative;
     margin-top: 50px;
@@ -126,43 +89,511 @@ body {
         font-size: 20px;
     }
 }
+/*Rexx home section */
 
 
-
-
-/* discover path */
-.discover-card{
-    border: 1px solid #333999;
-    border-radius: 5px;
-    margin-bottom: 5px;
-    padding: 7px;
+/*Rexx Why choose us */
+.why-choose-section-container{
+    background-color:#fff;
+    width: 100%;
+    padding-top: 120px;
+    padding-bottom: 60px;
 }
-.discover-card-heading{
-    font-size: 25px;
-    color: #333999;
+.why-choose-section-content{
+    padding: 20px;
+}
+.why-choose-content-head{
+    line-height: 1.5;
+    font-size: 35px;
     font-weight: 600;
 }
-.discover-card-para{
+.why-choose-content-para{
+    color: #333999;
     font-size: 16px;
-    color: #000;
+    font-weight: 600;
+
+}
+.why-choose-section-sub-card{
+    border: 1px solid #333999;
+    padding: 10px;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+.why-choose-sub-card-para{
+    font-size: 16px;
+}
+
+.why-choose-para{
+    font-size: 16px;
+    line-height: 1.8;
+}
+.why-choose-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.why-choose-list li {
+    display: flex;
+    align-items: center;
+    width: 50%; 
+    margin-bottom: 10px;
+}
+
+.why-choose-icon {
+    font-size: 20px;
+    margin-right: 8px;
+    color: #333999;
+}
+
+.why-choose-list p {
+    margin: 0;
+}
+.why-choose-section-image{
+    padding-top: 30px;
     
 }
-.Discover-path-container{
-    width: 100%;
-    background-color: #f8f9fa; 
-    display: flex;
-    align-items: center; 
-    justify-content: center;
-    padding: 50px 0;
+@media (max-width: 576px){
+    .why-choose-content-para {
+        color: #333999;
+        font-size: 16px;
+        font-weight: 600;
+        padding-top: 30px;
+    }
+    .why-choose-content-head {
+        line-height: 1.5;
+        font-size: 25px;
+        font-weight: 600;
+    }
+    .why-choose-para {
+        font-size: 15px;
+        line-height: 1.8;
+    }
+    .why-choose-list p {
+        margin: 0;
+        font-size: 12px;
+    }
 }
-.discover-path-heading{
-    font-size: 30px;
-    font-weight: 600;
-}
-/* discover path */
+/* Rexx why choose us */
+
+/* Rexx features Section*/
+    /*Rexx App features */
+    .bg-features-container {
+        background-color: #f8f8f8;
+        padding-top: 80px;
+    }
+    
+    .carousel-shadow .owl-stage-outer {
+        margin: -15px -15px 0;
+        padding: 15px;
+    }
+    
+    .we-offer-area .our-offer-carousel .owl-dots .owl-dot span {
+        background: #ffffff;
+        border: 2px solid;
+        height: 15px;
+        margin: 0 5px;
+        width: 15px;
+    }
+    
+    .we-offer-area .our-offer-carousel .owl-dots .owl-dot.active span {
+        background: #333999;
+        border-color: #333999;
+    }
+    
+    .we-offer-area .item {
+        background: #ffffff;
+        border-left: 2px solid #333999;
+        box-shadow: 0 0 10px #cccccc;
+        overflow: hidden;
+        padding: 30px;
+        position: relative;
+        z-index: 1;
+    }
+    
+    .we-offer-area.text-center .item {
+        background: #ffffff;
+        border: none;
+    }
+    
+    .we-offer-area.text-center .item i {
+        background: #333999;
+        border-radius: 50%;
+        color: #ffffff;
+        font-size: 25px;
+        height: 50px;
+        line-height: 50px;
+        position: relative;
+        text-align: center;
+        width: 70px;
+        z-index: 1;
+        transition: all 0.35s ease-in-out;
+        margin-bottom: 25px;
+    }
+    
+    .we-offer-area.text-center .item i::after {
+        border: 2px solid #333999;
+        border-radius: 50%;
+        content: "";
+        height: 60px;
+        left: -6px;
+        position: absolute;
+        top: -5px;
+        width: 65px;
+        z-index: -1;
+        transition: all 0.35s ease-in-out;
+    }
+    
+    .rexx-features-main-para-2 {
+        color: #333999;
+        font-size: 16px;
+        font-weight: 600;
+        text-align: center;
+    }
+    
+    .rexx-features-main-head-2 {
+        font-size: 35px;
+        font-weight: 600;
+        padding-bottom: 30px;
+        text-align: center;
+    }
+    
+    .we-offer-area.item-border-less .item {
+        border: none;
+    }
+    
+    .we-offer-area .our-offer-items.less-carousel .equal-height {
+        margin-bottom: 30px;
+    }
+    
+    .we-offer-area.item-border-less .item .number {
+        font-size: 50px;
+        font-weight: 900;
+        opacity: 0.1;
+        position: absolute;
+        right: 30px;
+        top: 30px;
+    }
+    
+    .our-offer-carousel.center-active .owl-item:nth-child(2n) .item,
+    .we-offer-area.center-active .single-item:nth-child(2n) .item {
+        background: #333999;
+    }
+    
+    .our-offer-carousel.center-active .owl-item:nth-child(2n) .item i,
+    .we-offer-area.center-active .single-item:nth-child(2n) .item i,
+    .our-offer-carousel.center-active .owl-item:nth-child(2n) .item h4,
+    .we-offer-area.center-active .single-item:nth-child(2n) .item h4,
+    .our-offer-carousel.center-active .owl-item:nth-child(2n) .item p,
+    .we-offer-area.center-active .single-item:nth-child(2n) .item p {
+        color: #ffffff;
+    }
+    
+    .we-offer-area .item i {
+        color: #333999;
+        font-size: 60px;
+        margin-bottom: 20px;
+    }
+    
+    .we-offer-area .item h4 {
+        font-weight: 600;
+        font-size: 20px;
+        text-transform: capitalize;
+    }
+    
+    .we-offer-area .item p {
+        margin: 0;
+        font-size: 16px;
+    }
+    
+    .we-offer-area .item i,
+    .we-offer-area .item h4,
+    .we-offer-area .item p {
+        transition: all 0.35s ease-in-out;
+    }
+    
+    .we-offer-area .item::after {
+        background: #333999;
+        content: "";
+        height: 100%;
+        left: -100%;
+        position: absolute;
+        top: 0;
+        transition: all 0.35s ease-in-out;
+        width: 100%;
+        z-index: -1;
+    }
+    
+    .we-offer-area .item:hover::after {
+        left: 0;
+    }
+    
+    .we-offer-area .item:hover i,
+    .we-offer-area .item:hover h4,
+    .we-offer-area .item:hover p {
+        color: #ffffff !important;
+    }
+    
+    .we-offer-area.text-center .item:hover i::after {
+        border-color: #ffffff !important;
+    }
+    
+    .we-offer-area.text-center .item:hover i {
+        background-color: #ffffff !important;
+        color: #333999 !important;
+    }
+    
+    .we-offer-area.text-left .item i {
+        background: #333999;
+        border-radius: 50%;
+        color: #ffffff;
+        font-size: 60px;
+        height: 100px;
+        line-height: 100px;
+        margin-bottom: 30px;
+        position: relative;
+        text-align: center;
+        width: 100px;
+        z-index: 1;
+    }
+    
+    .we-offer-area.text-left .item i::after {
+        border: 2px solid #333999;
+        border-radius: 50%;
+        content: "";
+        height: 120px;
+        left: -10px;
+        position: absolute;
+        top: -10px;
+        width: 120px;
+    }
+    
+    /* Media Queries */
+    @media screen and (max-width: 1024px) {
+        .we-offer-area.text-center .item i {
+            font-size: 23px;
+            height: 45px;
+            line-height: 45px;
+            width: 73px;
+        }
+    
+        .we-offer-area.text-center .item i::after {
+            height: 60px;
+            left: -7px;
+            width: 58px;
+        }
+    }
+    
+    @media screen and (max-width: 768px) {
+        .we-offer-area.text-center .item i {
+            font-size: 20px;
+            height: 45px;
+            line-height: 45px;
+            width: 80px;
+        }
+    
+        .we-offer-area.text-center .item i::after {
+            display: none;
+        }
+    }
+    
+    @media screen and (max-width: 425px) {
+        .we-offer-area.text-center .item i {
+            font-size: 20px;
+            height: 40px;
+            line-height: 40px;
+            width: 70px;
+        }
+    
+        .we-offer-area.text-center .item i::after {
+            display: none;
+        }
+    }
+    
+    @media screen and (max-width: 400px) {
+        .we-offer-area.text-center .item i {
+            font-size: 18px;
+            height: 38px;
+            line-height: 38px;
+            width: 85px;
+        }
+    
+        .we-offer-area.text-center .item i::after {
+            display: none;
+        }
+    
+        .rexx-features-main-head-2 {
+            font-size: 25px;
+            padding-bottom: 10px;
+        }
+    
+        .we-offer-area .item h4 {
+            font-size: 20px;
+        }
+    
+        .we-offer-area .item p {
+            font-size: 15px;
+        }
+    }
+    /* Rexx app features */
+
+    /* Rexx Content features */
+    .tab-container-how-work{
+        width: 100%;
+        background-color: #f8f9fa; 
+        display: flex;
+        align-items: center; 
+        justify-content: center;
+        padding: 50px 0;
+    }
+    ul.tabs {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        height: 30px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    ul.tabs li {
+        cursor: pointer;
+        padding-top: 6px;
+        height: 45px;
+        line-height: 31px;
+        border-top: 1px solid #333999;
+        border-left: 1px solid #333999;
+        border-bottom: 1px solid #333999;
+        border-right: 1px solid #333999;
+        background-color: #fff;
+        color: #333999;
+        overflow: hidden;
+        position: relative;
+        flex-grow: 1; /* Distribute the tabs equally */
+        text-align: center;
+        box-sizing: border-box;
+    }
+    
+    ul.tabs li:not(:first-child) {
+        border-left: none; /* Remove the left border for all tabs except the first one */
+    }
+    
+    ul.tabs li.active {
+        background-color: #333999;
+        color: #fff;
+        border-bottom: 1px solid #fff;
+        display: block;
+    }
+    
+    .tab_container {
+        border-top: none;
+        width: 100%;
+        background: #f8f8f8;
+        overflow: auto;
+    }
+    
+    .tab_content {
+        padding-top: 60px;
+        padding-bottom: 100px;
+        display: none;
+        overflow: hidden;
+    }
+    
+    .tab_drawer_heading {
+        display: none;
+    }
+    .item-grid:last-child{
+        margin-top: 50px;
+    }
+    
+    @media screen and (max-width: 480px) {
+        ul.tabs {
+            display: none;
+        }
+        .tab_content {
+            padding-top: 30px;
+            padding-bottom: 50px;
+        }
+    
+        .tab_drawer_heading {
+            background-color: #333999;
+            color: #fff;
+            border-top: 1px solid #fff;
+            margin: 0;
+            padding: 10px;
+            display: block;
+            cursor: pointer;
+            font-size: 16px;
+            -webkit-touch-callout: none;
+            -webkit-user-select: none;
+            -khtml-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+    
+        .d_active {
+            background-color: #fff;
+            color: #333999;
+        }
+        .item-grid:last-child{
+            margin-top: 0px;
+        }
+        
+    }
+    
+    .tab-how-card-container{
+        border: 1px solid #333999;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin: 5px;
+        border-radius: 5px;
+        height: 230px;   
+    }
+    .tab-image{
+        width: 100%;
+    }
+    .tab-how-card-icon-container{
+        margin-bottom: 0px;
+        
+    }
+    .tab-how-card-icon{
+        font-size: 30px;
+        color: #333999;
+    
+    }
+    .tag-line{
+        font-size: 18px;
+        color: #333999;
+        text-align: center;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .tab-how-card-image{
+        width: 70px;
+        padding-bottom: 15px;
+    }
+    .features-card-heading{
+        font-size: 20px;
+        color: #333999;
+        margin-bottom: 0px;
+        font-weight: 600;
+    }
+    .features-card-para{
+        font-size: 16px;
+        margin-bottom: 0px;
+        line-height: 1.5;
+    }
+    
+    /*Rexx content features*/
+/*Rexx features */
 
 
-/* How it works*/
+
+
+/* Rexx how it works */
 .How-work-container{
     width: 100%;
     background-color: #fff; 
@@ -171,7 +602,7 @@ body {
     align-items: center; 
     justify-content: center;
     padding-top: 120px;
-    padding-bottom: 60px;
+    padding-bottom: 120px;
 
 }
 
@@ -236,494 +667,153 @@ body {
     font-size: 16px;
     margin-bottom: 3px;
 }
-/* how it works */
-
-
-/* features container */
-
-/*.features-main-container .carousel-control-prev-icon,
-    .features-main-container .carousel-control-next-icon {
-        background-color: rgba(51, 57, 153, 1); 
-        width: 30px;
-        height: 30px;
-        border-radius: 50%;
-        
-    }
-
-    
-    .features-main-container .carousel-indicators li {
-        background-color: #000; 
-        width: 15px;
-        height: 15px;
-        border-radius: 50%;
-    }
-    
-    .features-main-container .carousel-indicators .active {
-        background-color: #333999; 
-    }*/
-.features-container{
-    padding: 80px;
-    margin-top: 40px;
-}
-.features-heading{
-    font-size: 25px;
-    color: #333999;
-    font-weight: bold;
-}
-.features-para{
-    font-size: 20px;
-    color: #000;
-}
-
-.features-card-container{
-    border: 1px solid #ededed;
-    padding: 10px;
-    border-radius: 5px;  
-    text-align: center;
-}
-.features-card-heading{
-    font-size: 20px;
-    color: #333999;
-    margin-bottom: 0px;
-    font-weight: 600;
-}
-.features-card-para{
-    font-size: 16px;
-    margin-bottom: 0px;
-    line-height: 1.5;
-}
-/* features container */
-.features-main-container{
-    min-height: 70vh;
-    background: linear-gradient(rgba(201, 201, 215, 0.8), rgba(114, 115, 185, .8)), url("../Images/young-person-intership.jpg") no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    z-index: 0;
-    overflow: hidden;
-    position: relative;
-    padding-top: 60px;
-    padding-bottom: 30px;
-}
-.tab-container-how-work{
-    width: 100%;
-    background-color: #f8f9fa; 
-    display: flex;
-    align-items: center; 
-    justify-content: center;
-    padding: 50px 0;
-}
-ul.tabs {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    height: 30px;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-}
-
-ul.tabs li {
-    cursor: pointer;
-    padding-top: 6px;
-    height: 45px;
-    line-height: 31px;
-    border-top: 1px solid #333999;
-    border-left: 1px solid #333999;
-    border-bottom: 1px solid #333999;
-    border-right: 1px solid #333999;
-    background-color: #fff;
-    color: #333999;
-    overflow: hidden;
-    position: relative;
-    flex-grow: 1; /* Distribute the tabs equally */
-    text-align: center;
-    box-sizing: border-box;
-}
-
-ul.tabs li:not(:first-child) {
-    border-left: none; /* Remove the left border for all tabs except the first one */
-}
-
-
-
-
-
-ul.tabs li.active {
-    background-color: #333999;
-    color: #fff;
-    border-bottom: 1px solid #fff;
-    display: block;
-}
-
-.tab_container {
-    border-top: none;
-    width: 100%;
-    background: #f8f8f8;
-    overflow: auto;
-}
-
-.tab_content {
-    padding-top: 60px;
-    padding-bottom: 100px;
-    display: none;
-    overflow: hidden;
-}
-
-.tab_drawer_heading {
-    display: none;
-}
-.item-grid:last-child{
-    margin-top: 50px;
-}
-
-@media screen and (max-width: 480px) {
-    ul.tabs {
-        display: none;
-    }
-    .tab_content {
-        padding-top: 50px;
-        padding-bottom: 50px;
-    }
-
-    .tab_drawer_heading {
-        background-color: #333999;
-        color: #fff;
-        border-top: 1px solid #fff;
-        margin: 0;
-        padding: 10px;
-        display: block;
-        cursor: pointer;
-        font-size: 16px;
-        -webkit-touch-callout: none;
-        -webkit-user-select: none;
-        -khtml-user-select: none;
-        -moz-user-select: none;
-        -ms-user-select: none;
-        user-select: none;
-    }
-
-    .d_active {
-        background-color: #fff;
-        color: #333999;
-    }
-    .item-grid:last-child{
-        margin-top: 0px;
-    }
-}
-
-.tab-how-card-container{
-    border: 1px solid #333999;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin: 5px;
-    border-radius: 5px;
-    height: 230px;
-    
-    
-}
-.tab-image{
-    width: 100%;
-}
-.tab-how-card-icon-container{
-    margin-bottom: 0px;
-    
-}
-.tab-how-card-icon{
-    font-size: 30px;
-    color: #333999;
-
-}
-.tag-line{
-    font-size: 18px;
-    color: #333999;
-    text-align: center;
-    padding-top: 30px;
-    padding-bottom: 30px;
-}
-.tab-how-card-image{
-    width: 70px;
-    padding-bottom: 15px;
-}
-
-  
-  
-/* testimonial*/
-.testimonials-container{
-    background-color:rgba(51, 57, 153, 0.2);
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
-.caurosuel-sub-card{
-    text-align: center;
-    padding-left: 40px;
-    padding-right: 50px;
-}
-.testi-profile{
-    height: 100px;
-    width: 100px;
-    border-radius: 50%;
-    margin-bottom: 20px;
-}
-.testi-sub-card{
-    background-color: rgba(51, 57, 153, 0.2);
-    padding: 10px;
-    border-radius: 5px;
-}
-.testimonials-container .carousel-control-prev-icon{
-    background-color: #333999;
-    border-radius: 50%;
-    width: 30px;
-    height: 30px;
-    
-    
-}
-.testimonials-container .carousel-control-next-icon {
-    background-color: #333999;
-    border-radius: 50%;
-    width: 30px;
-    height: 30px;
-    
-}
-.testi-main-head{
-    color: #333999;
-    font-size: 40px;
-    font-weight: 600;
-}
-.testi-main-para{
-    color: #000;
-    font-size: 16px;
-}
-.testi-sub-card-head{
-    color: #333999;
-    font-size: 20px;
-    margin-bottom: 0px;
-}
-.testi-sub-card-para{
-    color: #000;
-    font-size: 16px;
-    padding-left: 50px;
-    padding-right: 50px;
-}
-.testi-icon{
-    font-size: 45px;
-    color: #333999;
-    
-}
-.testi-sub-head{
-    font-size: 20px;
-    color: #333999;
-    font-weight: bold;
-}
-.testi-sub-para{
-    font-size: 16px;
-    color: #000;
-}
-@media(max-width: 576px){
-    .testimonials-container{
-       
-        padding-top: 50px;
-        padding-bottom: 50px;
-    }
-    .caurosuel-sub-card{
-        text-align: center;
-        padding-left: 0px;
-        padding-right: 0px;
-    }
-    .testi-main-head {
-        font-size: 20px;
-        padding-top: 30px;
-    }
-    .testi-sub-card-para{
-        padding-left: 10px;
-        padding-right: 10px;
-    }
-    .testi-sub-head{
-        font-size: 16px;
-    }
-}
-/* testimonial */
-
-
-
-
-
-
-
-
-
-
-/* Small devices (landscape phones, 576px and down) */
-@media (max-width: 576px) {
-    .rexx-hero-section{
-        background-image: linear-gradient(to bottom, #fff 50%, #333999 50%);
-    }
-    .rexx-heading {
-        font-size: 20px;
-    }
-    .hero-content-container{
-        padding-bottom: 100px;
-    }
-    .rexx-btn {
-        font-size: 14px;
-    }
-
-    .hero-content-container-heading {
-        font-size: 30px;
-        width: 100%;
-        margin-bottom: 1px;
-        
-    }
-    .download-image{
-        width: 100px;
-        height: 30px;
-        margin-left: 3px;
-    }
-
-    .hero-content-container-heading span {
-        font-size: 30px;
-    }
-
-    .hero-content-container-para {
-        font-size: 16px;
-        margin-bottom: 5px;
-    }
-
-    .discover-card-heading, .work-heading, .features-heading, .features-card-heading, .testi-main-head {
-        font-size: 20px;
-    }
-
-    .discover-card-para, .work-para, .features-para, .features-card-para, .testi-sub-card-para, .testi-main-para {
-        font-size: 14px;
-    }
-
-    .features-container, .How-work-container, .Discover-path-container, .testimonials-container {
-        padding: 30px 0;
-    }
-
-    .features-card-container {
-        height: auto;
-    }
-
+@media (max-width: 1024px) {
     .swiper-container {
-        width: 250px;
-        z-index:999;
+        width: 300px;
         height: 100%;
-        margin-top: 30px;
-        margin-bottom: 40px;
-        
-    }
-
-    .swiper-slide img {
-        width: 250px;
-        height: 400px;
-    }
-    .how-work-main-head{
-        color: #333999;
-        font-size: 30px;
-        font-weight: 600;
-        margin-top: 40px;
-        margin-left: 10px;
-    }
-    .testimonials-container{
-        
-        padding: 0px;
-    }
-    .testimonials-container .carousel-control-prev-icon{
-        background-color: #333999;
-        border-radius: 50%;
-        width: 30px;
-        height: 30px;
-        margin-right: 15px;
-        
-    }
-    .testimonials-container .carousel-control-next-icon {
-        background-color: #333999;
-        border-radius: 50%;
-        width: 30px;
-        height: 30px;
-        margin-left: 15px;
-    }
-}
-@media (min-width: 768px) and (max-width: 1024px) {
-    .swiper-container {
-        width: 300px; 
         z-index: 999;
-        height: 100%; 
-        margin-top: 60px;
-        margin-bottom: 90px;
-        margin-left: 150px;
+        margin: 60px 0 90px 150px;
     }
 
     .swiper-slide img {
         width: 300px;
         height: 450px;
     }
-    .how-work-main-head{
-        color: #333999;
+
+    .how-work-main-head {
         font-size: 30px;
         font-weight: 600;
-        margin-top: 80px;
-        margin-left: 10px;
+        margin: 80px 0 0 10px;
     }
 }
 
 
+@media (max-width: 800px) {
+    .swiper-container {
+        width: 340px;
+        height: 100%;
+        z-index: 999;
+        
+    }
 
+    .swiper-slide img {
+        width: 300px;
+        height: 450px;
+    }
 
-.rexx-features-container{
-    width: 100%;
-    background-color: #f8f9fa; 
-    display: flex;
-    align-items: center; 
-    justify-content: center;
+    .how-work-main-head {
+        margin-top: 0px;
+        font-size: 30px;
+        font-weight: 600;
+        text-align: center;
+        padding-bottom: 40px;
+
+    }
+    .how-work-main-para {
+        color: #333999;
+        font-size: 16px;
+        font-weight: 600;
+        margin-top: 90px;
+        text-align: center;
+    }
+}
+
+/* Small Mobile View (max-width: 576px) */
+@media (max-width: 576px) {
+    .swiper-container {
+        width: 250px;
+        height: 100%;
+        z-index: 999;
+        margin: 30px auto 40px;
+    }
+
+    .swiper-slide img {
+        width: 250px;
+        height: 400px;
+    }
+
+    .how-work-main-head {
+        text-align: center;
+        font-size: 25px;
+        font-weight: 600;
+        padding-bottom: 30px;
+    }
+
+    .how-work-main-para {
+        color: #333999;
+        font-size: 16px;
+        font-weight: 600;
+        margin-top: 60px;
+        text-align: center;
+    }
+}
+/* Rexx how it works */
+
+/* Rexx testimonial */
+.testimonials{
+    background-image: url("../Images/unnamed.png");
+    /*background-color: pink;*/
     padding-top: 120px;
-    padding-bottom: 100px;
+    padding-bottom: 60px;
 }
-.features-sub-card-container{
-    text-align: center;
-    padding: 10px;
-    border-radius: 10px;
+.testimonials-sub-card{
+    border: 2px solid #989bcc;
+    padding: 20px;
 }
-.features-sub-card-container:hover{
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    background-color: #fff;
-    
+.testi-profile-2{
+    position:relative;
+    bottom: -70px;
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
 }
-.features-icon{
+.testi-sub-card-para-2{
+    font-size: 16px;
+    margin-bottom: 0px;
+    padding-top: 10px;
+    line-height: 1.7;
+}
+.testi-sub-head-2{
+    padding-top: 50px;
+    font-size: 20px;
+    font-weight: 600;
     color: #333999;
-    font-size: 30px;
-    margin-bottom: 10px;
+}
+.testimonials .carousel-indicators li {
+    background-color: #333999; 
 }
 
-.features-sub-card-heading{
-    font-size: 18px;
-    font-weight: 600;
-    color: #333999;
-    margin-top: 7px;
+
+.testimonials .carousel-indicators .active {
+    background-color: #333999; 
+    opacity: 0.8; 
 }
-.features-sub-card-para{
-    font-size: 16px;
-}
-.rexx-features-main-para{
+.testimonials-para{
     color: #333999;
     font-size: 16px;
     font-weight: 600;
-    text-align: center;
+    padding-top: 20px;
     
 }
-.rexx-features-main-head{
+.testimonials-head{
+    
     font-size: 35px;
     font-weight: 600;
-    padding-bottom: 30px;
-    text-align: center;
 }
+@media (max-width: 576px){
+    .testimonials {
+        
+        padding-top: 70px;
+        padding-bottom: 60px;
+    }
+    .testimonials-head{
+        font-size: 25px;
+        font-weight: 600;
+    }
+}
+/* Rexx testimonials */
 
-
-
-/* contact*/
-
-
+/* Rexx contact Us */
 .contact-us-container-2 {
     padding-top: 120px;
     padding-bottom: 50px;
@@ -797,9 +887,6 @@ textarea.input {
     padding: 5px; 
     border-radius: 5px;
 }
-
-
-
 @media (max-width: 576px) {
     .third-text {
         font-size: 25px;
@@ -809,9 +896,9 @@ textarea.input {
         flex-direction: column; 
     }
 }
+/* Rexx contact us */
 
-
-
+/* Rexx Subscribe */
 .social-media {
     list-style-type: none;
     display: flex;
@@ -924,125 +1011,19 @@ hr {
     text-align: center;
     padding-bottom: 40px;
 }
+/* Rexx Subscribe*/
 
 
 
-.testimonials{
-    background-image: url("../Images/unnamed.png");
-    /*background-color: pink;*/
-    padding-top: 120px;
-    padding-bottom: 60px;
-}
-.testimonials-sub-card{
-    border: 2px solid #989bcc;
-    padding: 20px;
-}
-.testi-profile-2{
-    position:relative;
-    bottom: -70px;
-    height: 120px;
-    width: 120px;
-    border-radius: 50%;
-}
-.testi-sub-card-para-2{
-    font-size: 16px;
-    margin-bottom: 0px;
-    padding-top: 10px;
-    line-height: 1.7;
-}
-.testi-sub-head-2{
-    padding-top: 50px;
-    font-size: 20px;
-    font-weight: 600;
-    color: #333999;
-}
-.testimonials .carousel-indicators li {
-    background-color: #333999; 
-}
-
-
-.testimonials .carousel-indicators .active {
-    background-color: #333999; 
-    opacity: 0.8; 
-}
-.testimonials-para{
-    color: #333999;
-    font-size: 16px;
-    font-weight: 600;
-    padding-top: 20px;
-    
-}
-.testimonials-head{
-    
-    font-size: 35px;
-    font-weight: 600;
-}
-/* testimonials */
 
 
 
-.why-choose-section-container{
-    background-color:#fff;
-    width: 100%;
-    padding-top: 120px;
-    padding-bottom: 60px;
-}
-.why-choose-section-content{
-    padding: 20px;
-}
-.why-choose-content-head{
-    line-height: 1.5;
-    font-size: 35px;
-    font-weight: 600;
-}
-.why-choose-content-para{
-    color: #333999;
-    font-size: 16px;
-    font-weight: 600;
 
-}
-.why-choose-section-sub-card{
-    border: 1px solid #333999;
-    padding: 10px;
-    margin-top: 15px;
-    border-radius: 5px;
-}
-.why-choose-sub-card-para{
-    font-size: 16px;
-}
 
-.why-choose-para{
-    font-size: 16px;
-    line-height: 1.8;
-}
-.why-choose-list {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    flex-wrap: wrap;
-}
 
-.why-choose-list li {
-    display: flex;
-    align-items: center;
-    width: 50%; 
-    margin-bottom: 10px;
-}
 
-.why-choose-icon {
-    font-size: 20px;
-    margin-right: 8px;
-    color: #333999;
-}
 
-.why-choose-list p {
-    margin: 0;
-}
-.why-choose-section-image{
-    padding-top: 30px;
-    
-}
+
 
 
 
