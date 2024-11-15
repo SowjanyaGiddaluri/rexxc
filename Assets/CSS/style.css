@@ -201,6 +201,7 @@ body {
     .bg-features-container {
         background-color: #f8f8f8;
         padding-top: 80px;
+
     }
     
     .carousel-shadow .owl-stage-outer {
@@ -269,6 +270,7 @@ body {
         font-size: 16px;
         font-weight: 600;
         text-align: center;
+        padding-top: 80px;
     }
     
     .rexx-features-main-head-2 {
@@ -572,6 +574,53 @@ body {
         border-radius: 5px;
         height: 230px;   
     }
+    .tab-how-card-container-2 {
+        border: 2px solid #333999;
+        background-color: #fff;
+        text-align: center;
+        padding: 20px 15px;
+        margin: 20px 15px 0 0;
+        border-radius: 5px;
+        position: relative;
+        z-index: 1;
+        border-radius: 10px;
+    }
+    
+    .tab-how-card-container-2:before,
+    .tab-how-card-container-2:after {
+        content: "";
+        position: absolute;
+        border-radius: 5px;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+    }
+    
+    .tab-how-card-container-2:before {
+        background: #333999;
+        top: -20px;
+        right: -16px;
+        border-radius: 20px;
+    }
+    
+    .tab-how-card-container-2:after {
+        background-color: #fff;
+        top: -10px;
+        left: 8px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+        border-radius: 10px;
+    }
+    
+    .tab-how-card-container-2 .tab-how-card-icon-2 {
+        color: #333999;
+        transition: all 0.3s ease;
+    }
+    
+    .tab-how-card-container-2:hover .tab-how-card-icon-2 {
+        color: #5555ff;
+        transform: scale(1.1);
+    }
+    
     .tab-image{
         width: 100%;
     }
@@ -603,8 +652,9 @@ body {
     }
     .features-card-para{
         font-size: 16px;
-        margin-bottom: 0px;
+        margin-bottom: 5px;
         line-height: 1.5;
+        margin-top: 5px;
     }
     
     /*Rexx content features*/
@@ -994,7 +1044,7 @@ textarea.input {
 .subscribe-container-card{
     border-radius: 20px; 
     padding: 30px; 
-    max-width: 600px; 
+    max-width: 700px; 
     width: 100%; 
     margin: 0 auto; 
     text-align: center;
@@ -1059,7 +1109,7 @@ hr {
 }
 
 .contact-details-icon{
-    color: #333999;
+    color: #fff;
     font-size: 30px;
 }
 .contact-details-head{
@@ -1335,4 +1385,59 @@ hr {
         background-color: #fff;
     }
 }
+
+.form-container{
+    position: relative;
+}
+.form-line{
+    width: 100%;
+    display: block;
+    position: relative;
+    transition: .3s all ease;
+    padding-top: 10px;
+}
+.form-line + .form-line{
+    margin-top: 30px;
+}
+.form-line label{
+    display: block;
+    position: absolute;
+    top: 15px;
+    left: 0;
+    font-size: 16px;
+    color: #575757;
+    transition: .3s all ease;
+    z-index: 1;
+}
+.form-input-container-2{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #ccc;
+    padding: 0 0 10px;
+    font-size: 16px;
+    color: #000;
+    outline: none;
+    position: relative;
+    z-index: 2;
+    background-color: transparent;
+    transition: .3s all ease;
+    width: 100%;
+}
+textarea.form-input-container-2{
+    resize: vertical;
+}
+.form-input-container-2:focus + label, 
+.form-line label.top{
+    font-size: 14px;
+    top: -10px;
+    color: #333999;
+}
+.form-input-container-2:focus{
+    border-bottom-color: #333999;
+}
+.contact-details-container{
+    background-color: #333999;
+}
+
 

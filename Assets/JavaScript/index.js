@@ -50,19 +50,3 @@ $(".tab_drawer_heading").click(function() {
 $('ul.tabs li').last().addClass("tab_last");
 
 
-ScrollReveal({
-    reset: true,
-    distance: '60px',
-    duration: 2500,
-    delay: 400
-});
-
-/*ScrollReveal().reveal('.rexx-section-main-heading', {delay:500, origin: 'left'});
-ScrollReveal().reveal('.rexx-section-main-para', {delay:600, origin: 'left'});
-
-
-ScrollReveal().reveal('.features-sub-card-container', {delay:500, origin: 'bottom'});
-
-ScrollReveal().reveal('.tab-how-card-container', {delay:500, origin: 'left'});
-
-ScrollReveal().reveal('.how-work-cards', {delay:500, origin: 'right'});*/
