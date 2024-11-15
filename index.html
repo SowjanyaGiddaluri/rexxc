@@ -312,7 +312,7 @@
                                 <div class="tab-how-card-icon-2">
                                     <img src="Assets/Images/study.svg" class="tab-how-card-image"/>
                                 </div>
-                                <h1 class="features-card-heading">Manage Student Participation</h1>
+                                <h1 class="features-card-heading">Manage Participation</h1>
                                 <p class="features-card-para">Add students to internships and ensure eligibility for positions.</p>
                             </div>
                         </div>
@@ -815,19 +815,31 @@
             <div class="row">
                 <div class="col-lg-8 col-md-7">
                     <div class="contact-us-card-container">
-                        <form class="form-container">
+                        <form class="form-container" action="#" method="POST">
                             <div class="row">
                                 <div class="col-md-6">
-                                    <div class="form-line success mt-md-0 mt-4">
-                                        <input type="text" class="form-input-container-2" />
-                                        <label class="form-container-top">Name</label>
+                                    <div class="form-line mt-md-0 mt-4">
+                                        <input 
+                                            type="text" 
+                                            id="name" 
+                                            name="name" 
+                                            class="form-input-container-2" 
+                                            required 
+                                        />
+                                        <label for="name" class="form-container-top">Name</label>
                                         <div class="form-container-check-label"></div>
                                     </div>
                                 </div>
                                 <div class="col-md-6">
                                     <div class="form-line mt-md-0 mt-4">
-                                        <input type="email" class="form-input-container-2" required/>
-                                        <label class="form-container-top">Email</label>
+                                        <input 
+                                            type="email" 
+                                            id="email" 
+                                            name="email" 
+                                            class="form-input-container-2" 
+                                            required 
+                                        />
+                                        <label for="email" class="form-container-top">Email</label>
                                         <div class="form-container-check-label"></div>
                                     </div>
                                 </div>
@@ -835,26 +847,43 @@
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="form-line mt-md-5 mt-4">
-                                        <input type="text" class="form-input-container-2" required/>
-                                        <label class="form-container-top">Phone</label>
+                                        <input 
+                                            type="tel" 
+                                            id="phone" 
+                                            name="phone" 
+                                            class="form-input-container-2" 
+                                            required 
+                                        />
+                                        <label for="phone" class="form-container-top">Phone</label>
                                         <div class="form-container-check-label"></div>
                                     </div>
                                 </div>
                                 <div class="col-md-6">
                                     <div class="form-line mt-md-5 mt-4">
-                                        <input type="text" class="form-input-container-2 " required/>
-                                        <label class="form-container-top ">Category</label>
+                                        <input 
+                                            type="text" 
+                                            id="category" 
+                                            name="category" 
+                                            class="form-input-container-2" 
+                                            required 
+                                        />
+                                        <label for="category" class="form-container-top">Category</label>
                                         <div class="form-container-check-label"></div>
                                     </div>
                                 </div>
                             </div>
                             <div class="form-line mt-md-5 mt-4">
-                                <textarea class="form-input-container-2" rows="3" cols="80" required></textarea>
-                                <label>Message</label>
-                                <div class="check-label">
-                                </div>
+                                <textarea 
+                                    id="message" 
+                                    name="message" 
+                                    class="form-input-container-2" 
+                                    rows="3" 
+                                    required
+                                ></textarea>
+                                <label for="message">Message</label>
+                                <div class="check-label"></div>
                             </div>
-                            <input type="button" class="btn rexx-btn mt-4" value="Submit"/>
+                            <button type="submit" class="btn rexx-btn mt-4">Submit</button>
                         </form>
                     </div>
                 </div>
@@ -908,11 +937,24 @@
             <div class="col-12 col-md-12">
                 <div class="subscribe-container-card">
                     <h1 class="subscribe-heading">Subscribe</h1>
-                    <p class="subscribe-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et</p>
-                    <form class="flex gap-2 mt-3">
-                        <input type="email" placeholder="Enter your email" class="subscribe-input">
-                        <button class="rexx-btn">Subscribe</button>   
+                    <p class="subscribe-para">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                    </p>
+                    
+                    <form class="subscribe-form">
+                        <div class="form-line-3">
+                            <input 
+                                type="email" 
+                                id="subscribe-email" 
+                                name="email" 
+                                class="form-input-container-3 subscribe-input" 
+                                required 
+                            />
+                            <label for="subscribe-email" class="form-container-top">Enter your email</label>
+                        </div>
+                        <button type="submit" class="btn rexx-btn subscribe-btn">Subscribe</button>
                     </form>
+                    
                     <div class="mt-4">
                         <ul class="social-media">
                             <li class="icon-container"><a href="#"><i class="bi bi-instagram icon-style"></i></a></li>
@@ -925,6 +967,7 @@
             </div>
         </div>
     </div>
+    
     <!--Rexx subscribe-->
     
     <!--Rexx footer section-->

@@ -1041,12 +1041,13 @@ textarea.input {
     padding: 80px 0;
     
 }
-.subscribe-container-card{
-    border-radius: 20px; 
-    padding: 30px; 
-    max-width: 700px; 
-    width: 100%; 
-    margin: 0 auto; 
+/* Subscribe Card Styling */
+.subscribe-container-card {
+    border-radius: 20px;
+    padding: 30px;
+    max-width: 700px;
+    width: 100%;
+    margin: 0 auto;
     text-align: center;
 }
 
@@ -1061,28 +1062,56 @@ textarea.input {
     font-size: 16px;
 }
 
+/* Form Flex Layout */
+.subscribe-form {
+    display: flex;
+    align-items: center;
+   
+    
+    
+}
+
+/* Form Input Styling */
 .subscribe-input {
     border: 1px solid #333999;
     border-radius: 5px;
     color: #000;
     font-size: 16px;
     padding: 10px;
-    
+    flex: 1; /* Allow input to take up available space */
+    max-width: 400px; /* Limit input width */
 }
 
+/* Button Styling */
 .subscribe-btn {
     background-color: #333999;
     border: none;
     border-radius: 5px;
     color: #fff;
-    padding: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
 }
-@media (max-width: 600px){
+
+.subscribe-btn:hover {
+    background-color: #575757;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 600px) {
+    .subscribe-form {
+        flex-direction: column; /* Stack input and button vertically on small screens */
+        gap: 15px;
+    }
+    .subscribe-input {
+        max-width: 100%; /* Ensure full width on small screens */
+    }
     .subscribe-container {
         padding-top: 60px;
-        
     }
 }
+
 
 
 .footer-container-2 {
@@ -1386,58 +1415,98 @@ hr {
     }
 }
 
-.form-container{
-    position: relative;
-}
-.form-line{
+.form-line {
     width: 100%;
     display: block;
     position: relative;
-    transition: .3s all ease;
     padding-top: 10px;
 }
-.form-line + .form-line{
+.form-line + .form-line {
     margin-top: 30px;
 }
-.form-line label{
-    display: block;
+.form-line label {
     position: absolute;
     top: 15px;
     left: 0;
     font-size: 16px;
     color: #575757;
-    transition: .3s all ease;
-    z-index: 1;
+    transition: 0.3s ease-in-out;
 }
-.form-input-container-2{
-    border-top: none;
-    border-left: none;
-    border-right: none;
+.form-input-container-2 {
+    border: none;
     border-bottom: 1px solid #ccc;
-    padding: 0 0 10px;
+    padding-bottom: 10px;
     font-size: 16px;
-    color: #000;
     outline: none;
-    position: relative;
-    z-index: 2;
     background-color: transparent;
-    transition: .3s all ease;
     width: 100%;
+    transition: 0.3s ease-in-out;
 }
-textarea.form-input-container-2{
+textarea.form-input-container-2 {
     resize: vertical;
 }
-.form-input-container-2:focus + label, 
-.form-line label.top{
+/*.form-input-container-2:focus + label,
+.form-line label.top,
+.form-input-container-2:valid {
     font-size: 14px;
     top: -10px;
     color: #333999;
+}*/
+.form-input-container-2:focus + label,
+.form-input-container-2:valid + label {
+    font-size: 14px;
+    color: #333999;
+    transform: translateY(-30px); /* Move label upwards */
 }
-.form-input-container-2:focus{
+.form-input-container-2:focus {
     border-bottom-color: #333999;
 }
-.contact-details-container{
+.btn {
     background-color: #333999;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+.btn:hover {
+    background-color: #575757;
 }
 
 
+.form-line-3{
+    width: 100%;
+    display: block;
+    position: relative;
+    padding-top: 10px;
+}
+.form-line-3 + .form-line-3 {
+    margin-top: 30px;
+}
+.form-line-3 label {
+    position: absolute;
+    top: 15px;
+    left: 70px;
+    font-size: 16px;
+    color: #575757;
+    transition: 0.3s ease-in-out;
+}
+.form-input-container-3 {
+    border: none;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+    font-size: 16px;
+    outline: none;
+    background-color: transparent;
+    width: 100%;
+    transition: 0.3s ease-in-out;
+}
+.form-input-container-3:focus + label,
+.form-input-container-3:valid + label {
+    font-size: 14px;
+    color: #333999;
+    transform: translateY(-30px); 
+}
+.form-input-container-3:focus {
+    border-bottom-color: #333999;
+}
