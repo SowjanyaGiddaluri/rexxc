@@ -1441,6 +1441,7 @@ hr {
     background-color: transparent;
     width: 100%;
     transition: 0.3s ease-in-out;
+    color: #575757;
 }
 textarea.form-input-container-2 {
     resize: vertical;
@@ -1510,3 +1511,12 @@ textarea.form-input-container-2 {
 .form-input-container-3:focus {
     border-bottom-color: #333999;
 }
+#category{
+    
+    color: #575757;
+}
+.form-input-container-2 option {
+    background-color: #fff; 
+    color: #333;            
+}
+

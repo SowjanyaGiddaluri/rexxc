@@ -848,7 +848,7 @@
                                 <div class="col-md-6">
                                     <div class="form-line mt-md-5 mt-4">
                                         <input 
-                                            type="tel" 
+                                            type="number" 
                                             id="phone" 
                                             name="phone" 
                                             class="form-input-container-2" 
@@ -860,17 +860,22 @@
                                 </div>
                                 <div class="col-md-6">
                                     <div class="form-line mt-md-5 mt-4">
-                                        <input 
-                                            type="text" 
+                                        <select 
                                             id="category" 
                                             name="category" 
                                             class="form-input-container-2" 
-                                            required 
-                                        />
-                                        <label for="category" class="form-container-top">Category</label>
+                                            required
+                                        >
+                                            <option value="" disabled selected id="category-list">Category</option>
+                                            <option value="Mentor">Mentor</option>
+                                            <option value="Candidate">Candidate</option>
+                                            <option value="Recruiter">Recruiter</option>
+                                            <option value="in-charge">In-Charge</option>
+                                        </select>
                                         <div class="form-container-check-label"></div>
                                     </div>
                                 </div>
+                                
                             </div>
                             <div class="form-line mt-md-5 mt-4">
                                 <textarea 
